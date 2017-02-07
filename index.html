@@ -1,0 +1,24 @@
+---
+layout: default
+title: Buffer Talks
+---
+<ul class="posts">
+    {% for post in site.posts %}
+        <li>
+            <div class="details">
+                {{ post.date | date_to_string }}
+            </div>
+            <a href="{{post.url}}">
+                <h1 class="post-title">{{ post.title }}</h1>
+            </a>
+            <p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                &raquo;
+                <a href="{{post.url}}">read more</a>
+            </p>
+            {% unless forloop.last %}
+                <div class="divider">&bull;</div>
+            {% endunless %}
+        </li>
+    {% endfor %}
+</ul>
