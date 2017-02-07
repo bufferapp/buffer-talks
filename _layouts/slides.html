@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<script src="/static/remark-0.14.0.min.js"></script>
+<script>
+  // async load the page slides
+  var url = "/slides/{{page.slides}}";
+  var jsonFile = new XMLHttpRequest();
+      jsonFile.open("GET", url, true);
+      jsonFile.send();
+
+      jsonFile.onreadystatechange =
+        function(){
+          if (jsonFile.readyState== 4 && jsonFile.status == 200){
+            var slideshow = remark.create({
+              source: jsonFile.responseText,
+              highlightStyle: 'googlecode',
+              ratio: '16:9',
+            });
+          }
+        }
+</script>
