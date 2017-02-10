@@ -124,3 +124,12 @@
     <button>Search</button>
   </div>
 </nav>
+
+---
+
+# Templates
+
+- Scaffolding
+- Provides context to Molecules and Organisms
+- Can be low fidelity (pencil & paper) or high fidelity (full color pixels)
+- Can be model built in a tool like [Sketch](https://sketchapp.com/) or [Figma](https://figma.com)
