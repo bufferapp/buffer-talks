@@ -34,10 +34,10 @@
 **Label**
 
 ```html
-<label for="text-input">Search This Page</label>
+<label for="text-input">Search This Site</label>
 ```
 
-<label for="text-input">Search This Page</label>
+<label for="text-input">Search This Site</label>
 
 **Input**
 
@@ -72,7 +72,7 @@
 ```html
 <div>
   <div>
-    <label for="text-input">Search This Page</label>
+    <label for="text-input">Search This Site</label>
   </div>
   <input type="text" placeholder="Enter Keyword" id="text-input"/>
   <button>Search</button>
@@ -81,8 +81,44 @@
 
 <div>
   <div>
-    <label for="text-input">Search This Page</label>
+    <label for="text-input">Search This Site</label>
   </div>
   <input type="text" placeholder="Enter Keyword" id="text-input"/>
   <button>Search</button>
 </div>
+
+---
+
+# Organisms
+
+- Groups of Molecules
+- Relatively complex
+- Often perform a specific task, i.e. Navigation
+
+---
+
+# Organisms
+
+```html
+<Nav>
+  <Image src="awesome.png" />
+  <NavLinks links=["Home", "About", "Contact"] />
+  <Search />
+</Nav>
+```
+
+<nav style="display: flex; border: 1px solid #ccc; align-items: bottom; align-items: flex-end; padding: 1em;">
+  <img src="/images/AtomicDesign/AwesomeFace.png" style="height: 2em; width: 2em;" />
+  <ul style="display: flex; list-style: none; padding: 0; margin: 0; flex-grow: 1;">
+    <li style="margin-left: 2em;"><a href="#">Home</a></li>
+    <li style="margin-left: 0.5em;"><a href="#">About</a></li>
+    <li style="margin-left: 0.5em;"><a href="#">Contact</a></li>
+  </ul>
+  <div>
+    <div>
+      <label for="text-input">Search This Site</label>
+    </div>
+    <input type="text" placeholder="Enter Keyword" id="text-input"/>
+    <button>Search</button>
+  </div>
+</nav>
