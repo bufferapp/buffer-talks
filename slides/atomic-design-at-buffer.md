@@ -109,7 +109,7 @@
 </Nav>
 ```
 
-<nav style="display: flex; border: 1px solid #ccc; align-items: bottom; align-items: flex-end; padding: 1em;">
+<nav style="display: flex; background: #eee; align-items: bottom; align-items: flex-end; padding: 1em;">
   <img src="/images/AtomicDesign/AwesomeFace.png" style="height: 2em; width: 2em;" />
   <ul style="display: flex; list-style: none; padding: 0; margin: 0; flex-grow: 1;">
     <li style="margin-left: 2em;"><a href="#">Home</a></li>
@@ -133,3 +133,9 @@
 - Provides context to Molecules and Organisms
 - Can be low fidelity (pencil & paper) or high fidelity (full color pixels)
 - Can be model built in a tool like [Sketch](https://sketchapp.com/) or [Figma](https://figma.com)
+
+---
+
+# Templates
+
+<img src="/images/AtomicDesign/TemplateExample.png" alt="Template Example" width="60%" />
