@@ -1,4 +1,4 @@
-# Atom Design At Buffer
+# Atomic Design At Buffer
 
 .footnote[Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))]
 ---
