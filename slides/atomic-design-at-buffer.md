@@ -31,7 +31,7 @@
 
 # Atoms
 
-**Label**
+**Label Component**
 
 ```html
 <label for="text-input">Search This Site</label>
@@ -39,7 +39,7 @@
 
 <label for="text-input">Search This Site</label>
 
-**Input**
+**Input Component**
 
 ```html
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
@@ -47,7 +47,7 @@
 
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
 
-**Button**
+**Button Component**
 
 ```html
 <button>Search</button>
@@ -67,7 +67,7 @@
 
 # Molecules
 
-**Search**
+**Search Component**
 
 ```html
 <div>
@@ -98,6 +98,8 @@
 ---
 
 # Organisms
+
+**Nav Component**
 
 ```html
 <Nav>
