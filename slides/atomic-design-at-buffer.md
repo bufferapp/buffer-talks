@@ -129,13 +129,31 @@
 
 # Templates
 
-- Scaffolding
+- Provide scaffolding with placeholder content
 - Provides context to Molecules and Organisms
-- Can be low fidelity (pencil & paper) or high fidelity (full color pixels)
-- Can be model built in a tool like [Sketch](https://sketchapp.com/) or [Figma](https://figma.com)
+- High or low fidelity
+
+???
+- This is the design
+- [Sketch](https://sketchapp.com/)
+- [Figma](https://figma.com)
 
 ---
 
 # Templates
 
 <img src="/images/AtomicDesign/TemplateExample.png" alt="Template Example" width="60%" />
+
+---
+
+# Page
+
+- A Template populated with real content
+- All Atoms and Molecules can be viewed in context
+- Variations of inputs can be tested here
+
+---
+
+# Page
+
+<img src="/images/AtomicDesign/PageExample.png" alt="Page Example" width="60%" />
