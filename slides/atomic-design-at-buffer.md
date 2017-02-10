@@ -31,11 +31,15 @@
 
 # Atoms
 
+**Label**
+
 ```html
 <label for="text-input">Search This Page</label>
 ```
 
 <label for="text-input">Search This Page</label>
+
+**Input**
 
 ```html
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
@@ -43,8 +47,42 @@
 
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
 
+**Button**
+
 ```html
 <button>Search</button>
 ```
 
 <button>Search</button>
+
+---
+
+# Molecules
+
+- Groups of atoms bonded together
+- Usually simple and do one thing well
+- Built for re-use
+
+---
+
+# Molecules
+
+**Search**
+
+```html
+<div>
+  <div>
+    <label for="text-input">Search This Page</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
+```
+
+<div>
+  <div>
+    <label for="text-input">Search This Page</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
