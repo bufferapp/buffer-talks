@@ -186,7 +186,25 @@
 
 # Buffer Web - Atoms
 
-<img src="/images/AtomicDesign/BufferComponents.png" alt="Page Example" width="60%" />
+<img src="/images/AtomicDesign/BufferComponents.png" alt="Buffer Components" width="60%" />
+
+---
+
+# Buffer Web - Molecules
+
+- Buffer Web Components
+- Made up of Buffer Components
+
+???
+
+- the molecules
+- stateless and functional
+
+---
+
+# Buffer Web - Molecules
+
+<img src="/images/AtomicDesign/BufferWebComponents.png" alt="Buffer Web Components" width="60%" />
 
 ---
 
