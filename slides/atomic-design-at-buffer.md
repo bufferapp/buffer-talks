@@ -170,12 +170,30 @@
 
 # Atomic Design For The Web
 
+???
+
+invert colors on this slide
+
+---
+
+# Atomic Design For The Web
+
+- React components
+- We conform to the concepts around atoms, molecules and pages
+- Templates are a fuzzy area
+
+???
+
+- everything is technically a template with React
+
 ---
 
 # Buffer Web - Atoms
 
 - Buffer Components
 - Work in many different contexts
+
+<img src="/images/AtomicDesign/BufferComponents.png" alt="Buffer Components" width="20%" />
 
 ???
 
@@ -186,7 +204,7 @@
 
 # Buffer Web - Atoms
 
-<img src="/images/AtomicDesign/BufferComponents.png" alt="Buffer Components" width="60%" />
+<img src="/images/AtomicDesign/BufferComponentsStory.png" alt="Buffer Components" width="60%" />
 
 ---
 
@@ -194,6 +212,8 @@
 
 - Buffer Web Components
 - Made up of Buffer Components
+
+<img src="/images/AtomicDesign/BufferWebComponents.png" alt="Buffer Web Components" width="40%" />
 
 ???
 
@@ -204,8 +224,43 @@
 
 # Buffer Web - Molecules
 
-<img src="/images/AtomicDesign/BufferWebComponents.png" alt="Buffer Web Components" width="60%" />
+<img src="/images/AtomicDesign/BufferWebComponentsStory.png" alt="Buffer Web Components" width="60%" />
 
 ---
 
-# Demo (Web)
+# Buffer Web - Pages
+
+- Made up of Molecules
+- Sometimes need to use an Atom directly (labels are common)
+
+---
+
+# Buffer Web - Pages
+
+<img src="/images/AtomicDesign/BufferWeb.png" alt="Buffer Pages" width="60%" />
+
+---
+
+# Atom / Molecule / Page Flow
+
+<img src="/images/AtomicDesign/AtomsMoleculesPages.png" alt="Buffer Pages" width="60%" />
+
+???
+
+- page is where we manage state
+- page is where we compose molecules and atoms
+
+---
+
+# Demo
+
+<img src="/images/AtomicDesign/demo.gif" alt="Demo.gif" width="40%" />
+
+???
+
+- show Buffer Components in the storybook
+- do a quick change of the button color
+
+---
+
+# Questions
