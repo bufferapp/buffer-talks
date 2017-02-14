@@ -168,4 +168,26 @@
 
 ---
 
+# Atomic Design For The Web
+
+---
+
+# Buffer Web - Atoms
+
+- Buffer Components
+- Work in many different contexts
+
+???
+
+- the atoms
+- stateless and functional
+
+---
+
+# Buffer Web - Atoms
+
+<img src="/images/AtomicDesign/BufferComponents.png" alt="Page Example" width="60%" />
+
+---
+
 # Demo (Web)
