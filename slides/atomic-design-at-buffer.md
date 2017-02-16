@@ -199,12 +199,7 @@ invert colors on this slide
 
 - the atoms
 - stateless and functional
-
----
-
-# Buffer Web - Atoms
-
-<img src="/images/AtomicDesign/BufferComponentsStory.png" alt="Buffer Components" width="60%" />
+- show a quick demo of buffer components
 
 ---
 
@@ -219,12 +214,7 @@ invert colors on this slide
 
 - the molecules
 - stateless and functional
-
----
-
-# Buffer Web - Molecules
-
-<img src="/images/AtomicDesign/BufferWebComponentsStory.png" alt="Buffer Web Components" width="60%" />
+- show a quick demo of buffer web components
 
 ---
 
@@ -233,11 +223,9 @@ invert colors on this slide
 - Made up of Molecules
 - Sometimes need to use an Atom directly (labels are common)
 
----
+???
 
-# Buffer Web - Pages
-
-<img src="/images/AtomicDesign/BufferWeb.png" alt="Buffer Pages" width="60%" />
+- show a quick demo of the colab tool (or TODO: screenshot)
 
 ---
 
@@ -249,17 +237,7 @@ invert colors on this slide
 
 - page is where we manage state
 - page is where we compose molecules and atoms
-
----
-
-# Demo
-
-<img src="/images/AtomicDesign/demo.gif" alt="Demo.gif" width="40%" />
-
-???
-
-- show Buffer Components in the storybook
-- do a quick change of the button color
+- do a quick demo of changing button color (if time)
 
 ---
 
