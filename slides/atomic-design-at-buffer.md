@@ -11,8 +11,6 @@ class: garden, middle
 
 .blockquote-author[\- Brad Frost]
 
-
-
 ---
 
 # What Is Atomic Design?
