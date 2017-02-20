@@ -13,7 +13,8 @@ code {
 
 blockquote {
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 600;
+  font-style: italic;
   margin: 0;
 }
 
