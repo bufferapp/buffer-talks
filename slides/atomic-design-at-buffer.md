@@ -1,6 +1,8 @@
-# Atomic Design At Buffer
+class: middle, inverse-slide
 
-.footnote[Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))]
+# Atomic Design At Buffer
+Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))
+
 ---
 
 # What Is Atomic Design?

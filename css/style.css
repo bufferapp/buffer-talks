@@ -1,0 +1,26 @@
+a {
+  color: #168EEA;
+}
+
+a:hover {
+  color: #137ac9;
+  cursor: pointer;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.remark-slide-content {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+.inverse-slide {
+  background: #168EEA;
+  color: #fff;
+}
+
+.inverse-slide a {
+  color: #fff;
+}
