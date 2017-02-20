@@ -23,6 +23,7 @@ blockquote {
 }
 
 .remark-slide-content {
+  -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   color: #333;
 }
@@ -36,8 +37,6 @@ blockquote {
   color: #fff;
 }
 
-.garden {
-  background: url('/images/backgrounds/garden.png');
-  background-size: cover;
-  color: white;
+.remark-slide-content h1 {
+  font-size: 5em;
 }

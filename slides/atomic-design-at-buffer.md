@@ -1,19 +1,20 @@
-class: middle, inverse-slide
+class: title-slide, inverse-slide
 
 # Atomic Design At Buffer
+
 Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))
 
 ---
 
-class: garden, middle
+# What Is Atomic Design?
+
+---
 
 > Atomic Design is methodology for creating design systems.
 
 .blockquote-author[\- Brad Frost]
 
 ---
-
-# What Is Atomic Design?
 
 **The Five Levels**
 
