@@ -5,9 +5,13 @@ Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch
 
 ---
 
-# What Is Atomic Design?
+class: garden, middle
 
-> Atomic design is methodology for creating design systems [of components]. - Brad Frost
+> Atomic Design is methodology for creating design systems
+
+.blockquote-author[\- Brad Frost]
+
+
 
 ---
 

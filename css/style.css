@@ -11,6 +11,16 @@ code {
   font-family: 'Source Code Pro', monospace;
 }
 
+blockquote {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.blockquote-author {
+  font-size: 2em;
+}
+
 .remark-slide-content {
   font-family: 'Open Sans', sans-serif;
   color: #333;
@@ -23,4 +33,10 @@ code {
 
 .inverse-slide a {
   color: #fff;
+}
+
+.garden {
+  background: url('/images/backgrounds/garden.png');
+  background-size: cover;
+  color: white;
 }
