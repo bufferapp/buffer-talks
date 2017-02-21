@@ -169,7 +169,32 @@ Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch
 
 ---
 
-# Demo (Android)
+# Atomic Design for Mobile
+
+---
+
+# Why?
+- there was no structure
+- no dedicated Mobile Design Position
+- making switch between products seamless
+
+<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="30%" />
+
+---
+
+# Sketch Demo Mobile
+
+---
+
+# Benefits for Mobile
+
+- quickly shift between abstract and concrete
+- easily scalable
+- A/B testing becomes easier 
+
+---
+
+# How to do this?
 
 ---
 
