@@ -312,7 +312,7 @@ class: fifty-fifty
 
 class: title
 
-# Atom &raquo; Molcule &raquo; Page
+# Atom &raquo; Molecule &raquo; Page
 
 ---
 
