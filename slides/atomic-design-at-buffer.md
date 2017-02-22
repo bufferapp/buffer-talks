@@ -16,19 +16,19 @@ class: quote
 
 # Atomic Design
 
-- Atoms
-- Molecules
-- Organisms
-- Templates
-- Pages
+- Atom
+- Molecule
+- Organism
+- Template
+- Page
 
 ---
 
 class: fifty-fifty
 
 .left-panel[
-# Atoms
-<img src="/images/AtomicDesign/atoms.png" alt="atoms" width="35%" />
+# Atom
+<img src="/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
 ]
 
 .right-panel[
@@ -39,7 +39,7 @@ class: fifty-fifty
 
 ---
 
-# Atoms
+# Atom
 
 ```html
 <label for="text-input">Search This Site</label>
@@ -64,8 +64,8 @@ class: fifty-fifty
 class: fifty-fifty
 
 .left-panel[
-# Molecules
-<img src="/images/AtomicDesign/molecules.png" alt="molecules" width="35%" />
+# Molecule
+<img src="/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
 ]
 
 .right-panel[
@@ -76,7 +76,7 @@ class: fifty-fifty
 
 ---
 
-# Molecules
+# Molecule
 
 **Search Component**
 
@@ -103,8 +103,8 @@ class: fifty-fifty
 class: fifty-fifty
 
 .left-panel[
-# Organisms
-<img src="/images/AtomicDesign/molecules.png" alt="organisms" width="35%" />
+# Organism
+<img src="/images/AtomicDesign/molecules.png" alt="organism" width="35%" />
 ]
 
 .right-panel[
@@ -115,7 +115,7 @@ class: fifty-fifty
 
 ---
 
-# Organisms
+# Organism
 
 **Nav Component**
 
@@ -151,8 +151,8 @@ class: fifty-fifty
 class: fifty-fifty
 
 .left-panel[
-# Templates
-<img src="/images/AtomicDesign/template-app.png" alt="template" width="35%" />
+# Template
+<img src="/images/AtomicDesign/template-web.png" alt="template" width="35%" />
 ]
 
 .right-panel[
@@ -168,17 +168,11 @@ class: fifty-fifty
 
 ---
 
-# Templates
-
-.center[<img src="/images/AtomicDesign/TemplateExample.png" alt="Template Example" width="60%" />]
-
----
-
 class: fifty-fifty
 
 .left-panel[
 # Page
-<img src="/images/AtomicDesign/page-app.png" alt="page" width="35%" />
+<img src="/images/AtomicDesign/page-web.png" alt="page" width="35%" />
 ]
 
 .right-panel[
@@ -189,23 +183,13 @@ class: fifty-fifty
 
 ---
 
-# Page
-
-.center[<img src="/images/AtomicDesign/PageExample.png" alt="Page Example" width="60%" />]
-
----
-
 class: segue
 
 # Atomic Design At Buffer
+## Mobile
 
 ---
 
-class: segue
-
-# Mobile
-
----
 class: fifty-fifty
 
 .left-panel[
@@ -224,6 +208,7 @@ class: fifty-fifty
 class: segue
 
 # Demo
+## Mobile Design
 
 ???
 
@@ -245,7 +230,8 @@ Sketch Demo Mobile
 
 class: segue
 
-# Web
+# Atomic Design At Buffer
+## Web
 
 ---
 
@@ -253,24 +239,28 @@ class: segue
 
 - React components
 - We conform to the concepts around atoms, molecules and pages
-- Templates are a fuzzy area
+- Snapshot testing
+- Tooling to develop in isolated environments
 
 ???
 
+- templates are fuzzy
 - everything is technically a template with React
+- use Jest
+- use React Storybook
 
 ---
 
 class: fifty-fifty
 
 .left-panel[
-# Atoms
-<img src="/images/AtomicDesign/atoms.png" alt="atoms" width="35%" />
+# Atom
+<img src="/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
 ]
 
 .right-panel[
 - Work in many different contexts
-- Buffer Components
+- [Buffer Components](https://github.com/bufferapp/buffer-components)
 ]
 
 ???
@@ -284,13 +274,13 @@ class: fifty-fifty
 class: fifty-fifty
 
 .left-panel[
-# Molecules
-<img src="/images/AtomicDesign/molecules.png" alt="molecules" width="35%" />
+# Molecule
+<img src="/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
 ]
 
 .right-panel[
 - Made up of Buffer Components
-- Buffer Web Components Repository
+- [Buffer Web Components](https://github.com/bufferapp/buffer-web-components)
 ]
 
 ???
@@ -324,10 +314,15 @@ class: fifty-fifty
 
 <img src="/images/AtomicDesign/AtomsMoleculesPages.png" alt="Buffer Pages" width="60%" />
 
+---
+
+class: segue
+
+# Demo
+## Tooling: Storybook + Jest
+
 ???
 
-- page is where we manage state
-- page is where we compose molecules and atoms
 - do a quick demo of changing button color (if time)
 
 ---

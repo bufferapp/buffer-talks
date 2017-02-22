@@ -115,6 +115,10 @@ code {
   font-weight: 600;
 }
 
+.remark-slide-content.segue h2 {
+  font-weight: 400;
+}
+
 .remark-slide-content.segue a {
   color: #FFF;
 }
