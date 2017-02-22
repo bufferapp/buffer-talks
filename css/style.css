@@ -11,21 +11,10 @@ code {
   font-family: 'Source Code Pro', monospace;
 }
 
-blockquote {
-  font-size: 3em;
-  font-weight: 600;
-  font-style: italic;
-  margin: 0;
-}
-
-.blockquote-author {
-  font-size: 2em;
-}
-
 .footnote {
   position: absolute;
-  bottom: 2em;
-  left: 2em;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .remark-slide-content {
@@ -44,10 +33,22 @@ blockquote {
 }
 
 .remark-slide-content.title h1 {
-  font-size: 5em;
+  font-size: 5rem;
   font-weight: 600;
 }
 
 .remark-slide-content.title a {
   color: #fff;
+}
+
+.remark-slide-content.quote {
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.remark-slide-content.quote blockquote {
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0;
 }

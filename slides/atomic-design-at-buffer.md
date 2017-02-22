@@ -6,17 +6,15 @@ class: title
 
 ---
 
-# What Is Atomic Design?
-
----
+class: quote
 
 > Atomic Design is methodology for creating design systems.
 
-.blockquote-author[\- Brad Frost]
+\- Brad Frost
 
 ---
 
-**The Five Levels**
+# Atomic Design
 
 - Atoms
 - Molecules
