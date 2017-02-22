@@ -71,7 +71,7 @@ class: fifty-fifty
 
 .left-panel[
 # Molecules
-<img src="/images/AtomicDesign/molecules.png" alt="atoms" width="35%" />
+<img src="/images/AtomicDesign/molecules.png" alt="molecules" width="35%" />
 ]
 
 .right-panel[
@@ -110,7 +110,7 @@ class: fifty-fifty
 
 .left-panel[
 # Organisms
-<img src="/images/AtomicDesign/molecules.png" alt="atoms" width="35%" />
+<img src="/images/AtomicDesign/molecules.png" alt="organisms" width="35%" />
 ]
 
 .right-panel[
@@ -151,11 +151,18 @@ class: fifty-fifty
 
 ---
 
-# Templates
+class: fifty-fifty
 
+.left-panel[
+# Templates
+<img src="/images/AtomicDesign/template-app.png" alt="template" width="35%" />
+]
+
+.right-panel[
 - Provide scaffolding with placeholder content
 - Provides context to Molecules and Organisms
 - High or low fidelity
+]
 
 ???
 - This is the design
@@ -170,11 +177,18 @@ class: fifty-fifty
 
 ---
 
-# Page
+class: fifty-fifty
 
+.left-panel[
+# Page
+<img src="/images/AtomicDesign/page-app.png" alt="page" width="35%" />
+]
+
+.right-panel[
 - A Template populated with real content
 - All Atoms and Molecules can be viewed in context
 - Variations of inputs can be tested here
+]
 
 ---
 
@@ -220,10 +234,6 @@ class: fifty-fifty
 class: segue
 
 # Atomic Design For The Web
-
-???
-
-invert colors on this slide
 
 ---
 
