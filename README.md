@@ -21,7 +21,7 @@ bundle install
 Start the Jekyll Server
 
 ```
-bundle exec jekyll serve --watch --drafts
+bundle exec jekyll serve --watch --drafts --baseurl ''
 ```
 
 NOTE: This command restarts the server when file change and will display posts in the \_drafts folder.
