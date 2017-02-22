@@ -224,10 +224,6 @@ Sketch Demo Mobile
 
 ---
 
-# How to do this?
-
----
-
 class: segue
 
 # Atomic Design At Buffer
@@ -329,7 +325,7 @@ class: segue
 
 ???
 
-- do a quick demo of changing button color (if time)
+- do a demo on how to swap out an icon in buffer-web-components
 
 ---
 
