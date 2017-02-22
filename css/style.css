@@ -71,3 +71,24 @@ code {
 .remark-slide-content.segue a {
   color: #fff;
 }
+
+/* 50/50 */
+
+.remark-slide-content.fifty-fifty {
+  display: flex;
+  padding: 0;
+  height: 100%;
+}
+
+.remark-slide-content.fifty-fifty .left-panel {
+  background: #168EEA;
+  color: #fff;
+}
+
+.remark-slide-content.fifty-fifty .right-panel,
+.remark-slide-content.fifty-fifty .left-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

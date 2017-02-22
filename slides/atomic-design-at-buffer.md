@@ -24,11 +24,17 @@ class: quote
 
 ---
 
-# Atoms
+class: fifty-fifty
 
+.left-panel[
+# Atoms
+]
+
+.right-panel[
 - Building block of an application
 - Work in a number of contexts
 - Often not useful on their own
+]
 
 ---
 
