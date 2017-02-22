@@ -1,8 +1,8 @@
-class: title-slide, inverse-slide
+class: title
 
-# Atomic Design At Buffer
+# Atomic Design
 
-Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))
+.footnote[Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) <small>and</small> Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))]
 
 ---
 
@@ -190,7 +190,7 @@ Marcus Wermuth ([@mwermuth](https://twitter.com/mwermuth)) and Harrison Harnisch
 
 - quickly shift between abstract and concrete
 - easily scalable
-- A/B testing becomes easier 
+- A/B testing becomes easier
 
 ---
 

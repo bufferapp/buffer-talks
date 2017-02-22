@@ -22,21 +22,32 @@ blockquote {
   font-size: 2em;
 }
 
+.footnote {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+}
+
 .remark-slide-content {
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
-  color: #333;
+  color: #59626A;
 }
 
-.inverse-slide {
+/* title */
+
+.remark-slide-content.title {
   background: #168EEA;
   color: #fff;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.inverse-slide a {
-  color: #fff;
-}
-
-.remark-slide-content h1 {
+.remark-slide-content.title h1 {
   font-size: 5em;
+  font-weight: 600;
+}
+
+.remark-slide-content.title a {
+  color: #fff;
 }
