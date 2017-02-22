@@ -67,11 +67,18 @@ class: fifty-fifty
 
 ---
 
-# Molecules
+class: fifty-fifty
 
+.left-panel[
+# Molecules
+<img src="/images/AtomicDesign/molecules.png" alt="atoms" width="35%" />
+]
+
+.right-panel[
 - Groups of atoms bonded together
 - Usually simple and do one thing well
 - Built for re-use
+]
 
 ---
 
@@ -99,11 +106,18 @@ class: fifty-fifty
 
 ---
 
-# Organisms
+class: fifty-fifty
 
+.left-panel[
+# Organisms
+<img src="/images/AtomicDesign/molecules.png" alt="atoms" width="35%" />
+]
+
+.right-panel[
 - Groups of Molecules
 - Relatively complex
 - Often perform a specific task, i.e. Navigation
+]
 
 ---
 
