@@ -2,10 +2,10 @@
 layout: base
 ---
 
-<script src="/static/remark-0.14.0.min.js"></script>
+<script src="{{ baseurl }}/static/remark-0.14.0.min.js"></script>
 <script>
   // async load the page slides
-  var url = "/slides/{{page.slides}}";
+  var url = "{{ baseurl }}/slides/{{page.slides}}";
   var jsonFile = new XMLHttpRequest();
       jsonFile.open("GET", url, true);
       jsonFile.send();

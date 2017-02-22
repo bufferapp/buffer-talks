@@ -8,13 +8,13 @@ title: Buffer Talks
             <small>
                 {{ post.date | date_to_string }}
             </small>
-            <a href="{{post.url}}">
+            <a href="{{ baseurl }}{{post.url}}">
               <h2 class="post-title">{{ post.title }}</h1>
             </a>
             <p>
               {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
               &raquo;
-              <a href="{{post.url}}">view slides</a>
+              <a href="{{ baseurl }}{{post.url}}">view slides</a>
             </p>
             {% unless forloop.last %}
                 <div class="divider">&bull;</div>
