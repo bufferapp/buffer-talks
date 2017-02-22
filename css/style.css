@@ -1,9 +1,35 @@
+label {
+  font-size: 1rem;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #FFF;
+  background-color: #168EEA;
+  border: 1px solid transparent;
+  border-radius: 256px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.1s linear;
+}
+
+input[type=text] {
+  padding: 0.5rem;
+  outline: 0;
+  font-size: 1rem;
+  color: #59626A;
+  border: 1px solid #CED7DF;
+  border-radius: 3px;
+}
+
 a {
   color: #168EEA;
 }
 
 a:hover {
-  color: #137ac9;
+  color: #137AC9;
   cursor: pointer;
 }
 
@@ -32,7 +58,7 @@ code {
 
 .remark-slide-content.title {
   background: #168EEA;
-  color: #fff;
+  color: #FFF;
   vertical-align: middle;
   text-align: center;
 }
@@ -43,7 +69,7 @@ code {
 }
 
 .remark-slide-content.title a {
-  color: #fff;
+  color: #FFF;
 }
 
 /* quote */
@@ -64,7 +90,7 @@ code {
 
 .remark-slide-content.segue {
   background: #168EEA;
-  color: #fff;
+  color: #FFF;
   vertical-align: middle;
 }
 
@@ -74,7 +100,7 @@ code {
 }
 
 .remark-slide-content.segue a {
-  color: #fff;
+  color: #FFF;
 }
 
 /* 50/50 */
@@ -87,7 +113,7 @@ code {
 
 .remark-slide-content.fifty-fifty .left-panel {
   background: #168EEA;
-  color: #fff;
+  color: #FFF;
 }
 
 .remark-slide-content.fifty-fifty .right-panel,

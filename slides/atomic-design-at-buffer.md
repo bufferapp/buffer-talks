@@ -41,23 +41,17 @@ class: fifty-fifty
 
 # Atoms
 
-**Label Component**
-
 ```html
 <label for="text-input">Search This Site</label>
 ```
 
 <label for="text-input">Search This Site</label>
 
-**Input Component**
-
 ```html
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
 ```
 
 <input type="text" placeholder="Enter Keyword" id="text-input"/>
-
-**Button Component**
 
 ```html
 <button>Search</button>
@@ -127,18 +121,21 @@ class: fifty-fifty
 
 ```html
 <Nav>
-  <Image src="awesome.png" />
+  <Image src="logo.png" />
   <NavLinks links=["Home", "About", "Contact"] />
   <Search />
 </Nav>
 ```
 
-<nav style="display: flex; background: #eee; align-items: bottom; align-items: flex-end; padding: 1em;">
-  <img src="/images/AtomicDesign/AwesomeFace.png" style="height: 2em; width: 2em;" />
-  <ul style="display: flex; list-style: none; padding: 0; margin: 0; flex-grow: 1;">
-    <li style="margin-left: 2em;"><a href="#">Home</a></li>
-    <li style="margin-left: 0.5em;"><a href="#">About</a></li>
-    <li style="margin-left: 0.5em;"><a href="#">Contact</a></li>
+<nav style="display: flex; background: #eee; align-items: center; padding: 1em;">
+  <svg height="64" width="64">
+    <circle cx="32" cy="32" r="28" stroke="#2ecc71" stroke-width="4" fill="none"></circle>
+    <circle cx="32" cy="32" r="20" stroke="#08BCD0" stroke-width="4" fill="none" />
+  </svg>
+  <ul style="display: flex; list-style: none; padding: 0; margin: 0; flex-grow: 1; font-size: 2.5rem">
+    <li style="margin-left: 1.5rem;"><a href="#">Home</a></li>
+    <li style="margin-left: 1.5rem;"><a href="#">About</a></li>
+    <li style="margin-left: 1.5rem;"><a href="#">Contact</a></li>
   </ul>
   <div>
     <div>
