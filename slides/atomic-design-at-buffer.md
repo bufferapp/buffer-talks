@@ -201,16 +201,23 @@ class: segue
 
 ---
 
-# Atomic Design for Mobile
+class: segue
+
+# Mobile
 
 ---
+class: fifty-fifty
 
+.left-panel[
 # Why?
 - there was no structure
 - no dedicated Mobile Design Position
 - making switch between products seamless
+]
 
-<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="30%" />
+.right-panel[
+<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="50%" />
+]
 
 ---
 
@@ -232,7 +239,7 @@ class: segue
 
 class: segue
 
-# Atomic Design For The Web
+# Web
 
 ---
 
