@@ -196,6 +196,8 @@ class: quote
 
 ---
 
+class: segue
+
 # Atomic Design For The Web
 
 ???

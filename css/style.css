@@ -41,6 +41,8 @@ code {
   color: #fff;
 }
 
+/* quote */
+
 .remark-slide-content.quote {
   vertical-align: middle;
   font-size: 2rem;
@@ -51,4 +53,21 @@ code {
   font-weight: 600;
   font-style: italic;
   margin: 0;
+}
+
+/* segue */
+
+.remark-slide-content.segue {
+  background: #168EEA;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.remark-slide-content.segue h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.remark-slide-content.segue a {
+  color: #fff;
 }
