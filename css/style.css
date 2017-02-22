@@ -54,6 +54,18 @@ code {
   font-size: 4rem;
 }
 
+.remark-slide-content:after {
+  content: "";
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/images/buffer.png');
+}
+
 /* title */
 
 .remark-slide-content.title {
@@ -70,6 +82,10 @@ code {
 
 .remark-slide-content.title a {
   color: #FFF;
+}
+
+.remark-slide-content.title:after{
+  background-image: url('/images/buffer-light.png');
 }
 
 /* quote */
@@ -101,6 +117,10 @@ code {
 
 .remark-slide-content.segue a {
   color: #FFF;
+}
+
+.remark-slide-content.segue:after{
+  background-image: url('/images/buffer-light.png');
 }
 
 /* 50/50 */
