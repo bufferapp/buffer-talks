@@ -170,7 +170,7 @@ class: fifty-fifty
 
 # Templates
 
-<img src="/images/AtomicDesign/TemplateExample.png" alt="Template Example" width="60%" />
+.center[<img src="/images/AtomicDesign/TemplateExample.png" alt="Template Example" width="60%" />]
 
 ---
 
@@ -182,7 +182,7 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- A Template populated with real content
+- A template populated with real content
 - All Atoms and Molecules can be viewed in context
 - Variations of inputs can be tested here
 ]
@@ -191,7 +191,7 @@ class: fifty-fifty
 
 # Page
 
-<img src="/images/AtomicDesign/PageExample.png" alt="Page Example" width="60%" />
+.center[<img src="/images/AtomicDesign/PageExample.png" alt="Page Example" width="60%" />]
 
 ---
 
@@ -221,7 +221,13 @@ class: fifty-fifty
 
 ---
 
-# Sketch Demo Mobile
+class: segue
+
+# Demo
+
+???
+
+Sketch Demo Mobile
 
 ---
 
@@ -308,7 +314,8 @@ class: fifty-fifty
 ]
 
 ???
-
+- state is managed at this level
+- data is applied to templates at this level
 - show a quick demo of the colab tool (or TODO: screenshot)
 
 ---
