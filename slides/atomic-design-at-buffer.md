@@ -28,7 +28,7 @@ class: fifty-fifty
 
 .left-panel[
 # Atom
-<img src="/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
 ]
 
 .right-panel[
@@ -65,7 +65,7 @@ class: fifty-fifty
 
 .left-panel[
 # Molecule
-<img src="/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
 ]
 
 .right-panel[
@@ -104,7 +104,7 @@ class: fifty-fifty
 
 .left-panel[
 # Organism
-<img src="/images/AtomicDesign/molecules.png" alt="organism" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/molecules.png" alt="organism" width="35%" />
 ]
 
 .right-panel[
@@ -152,7 +152,7 @@ class: fifty-fifty
 
 .left-panel[
 # Template
-<img src="/images/AtomicDesign/template-web.png" alt="template" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/template-web.png" alt="template" width="35%" />
 ]
 
 .right-panel[
@@ -172,7 +172,7 @@ class: fifty-fifty
 
 .left-panel[
 # Page
-<img src="/images/AtomicDesign/page-web.png" alt="page" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="page" width="35%" />
 ]
 
 .right-panel[
@@ -193,7 +193,7 @@ class: segue
 class: fifty-fifty
 
 .left-panel[
-<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="50%" />
+<img src="{{baseurl}}/images/AtomicDesign/history.gif" alt="Buffer Android History" width="50%" />
 ]
 
 .right-panel[
@@ -251,7 +251,7 @@ class: fifty-fifty
 
 .left-panel[
 # Atom
-<img src="/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
 ]
 
 .right-panel[
@@ -271,7 +271,7 @@ class: fifty-fifty
 
 .left-panel[
 # Molecule
-<img src="/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
 ]
 
 .right-panel[
@@ -291,7 +291,7 @@ class: fifty-fifty
 
 .left-panel[
 # Page
-<img src="/images/AtomicDesign/page-web.png" alt="page" width="35%" />
+<img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="page" width="35%" />
 ]
 
 .right-panel[
@@ -314,7 +314,7 @@ class: title
 
 class: center, middle
 
-<img src="/images/AtomicDesign/flow.png" alt="flow" width="70%" />
+<img src="{{baseurl}}/images/AtomicDesign/flow.png" alt="flow" width="70%" />
 
 ---
 

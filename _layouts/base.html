@@ -2,8 +2,203 @@
 <head>
     <title>{{ page.title }}</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700|Source+Code+Pro" rel="stylesheet">
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        font-family: 'Open Sans', sans-serif;
+        color: #59626A;
+        font-size: 1rem;
+      }
+
+      .content {
+        margin: 0 auto;
+        max-width: 34rem;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      a {
+        color: #168EEA;
+      }
+
+      a:hover {
+        color: #137AC9;
+        cursor: pointer;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .post-title {
+        margin-top: 0;
+      }
+
+      /* remark */
+
+      .remark-slide-content ul {
+        list-style: inherit;
+      }
+
+      .remark-slide-content label {
+        font-size: 1rem;
+      }
+
+      .remark-slide-content button {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        color: #FFF;
+        background-color: #168EEA;
+        border: 1px solid transparent;
+        border-radius: 256px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.1s linear;
+      }
+
+      .remark-slide-content input[type=text] {
+        padding: 0.5rem;
+        outline: 0;
+        font-size: 1rem;
+        color: #59626A;
+        border: 1px solid #CED7DF;
+        border-radius: 3px;
+      }
+
+      .remark-slide-content a {
+        color: #168EEA;
+      }
+
+      .remark-slide-content a:hover {
+        color: #137AC9;
+        cursor: pointer;
+      }
+
+      .remark-slide-content code {
+        font-family: 'Source Code Pro', monospace;
+      }
+
+      .remark-slide-content .footnote {
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+      }
+
+      .remark-slide-content {
+        -webkit-font-smoothing: antialiased;
+        font-family: 'Open Sans', sans-serif;
+        color: #59626A;
+        font-size: 1.5rem;
+      }
+
+      .remark-slide-content h1 {
+        font-size: 4rem;
+      }
+
+      .remark-slide-content:after {
+        content: "";
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('{{ site.baseurl }}/images/buffer.png');
+      }
+
+      /* title */
+
+      .remark-slide-content.title {
+        background: #168EEA;
+        color: #FFF;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      .remark-slide-content.title h1 {
+        font-size: 5rem;
+        font-weight: 600;
+      }
+
+      .remark-slide-content.title a {
+        color: #FFF;
+      }
+
+      .remark-slide-content.title:after{
+        background-image: url('{{ site.baseurl }}/images/buffer-light.png');
+      }
+
+      /* quote */
+
+      .remark-slide-content.quote {
+        vertical-align: middle;
+        font-size: 2rem;
+      }
+
+      .remark-slide-content.quote blockquote {
+        font-size: 3rem;
+        font-weight: 600;
+        font-style: italic;
+        margin: 0;
+      }
+
+      /* segue */
+
+      .remark-slide-content.segue {
+        background: #168EEA;
+        color: #FFF;
+        vertical-align: middle;
+      }
+
+      .remark-slide-content.segue h1 {
+        font-size: 5rem;
+        font-weight: 600;
+      }
+
+      .remark-slide-content.segue h2 {
+        font-weight: 400;
+      }
+
+      .remark-slide-content.segue a {
+        color: #FFF;
+      }
+
+      .remark-slide-content.segue:after{
+        background-image: url('{{ site.baseurl }}/images/buffer-light.png');
+      }
+
+      /* 50/50 */
+
+      .remark-slide-content.fifty-fifty {
+        display: flex;
+        padding: 0;
+        height: 100%;
+      }
+
+      .remark-slide-content.fifty-fifty .left-panel {
+        background: #168EEA;
+        color: #FFF;
+      }
+
+      .remark-slide-content.fifty-fifty .right-panel,
+      .remark-slide-content.fifty-fifty .left-panel {
+        padding: 3rem;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .remark-slide-content.fifty-fifty p {
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
     {{ content }}

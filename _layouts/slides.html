@@ -14,7 +14,9 @@ layout: base
         function(){
           if (jsonFile.readyState== 4 && jsonFile.status == 200){
             var slideshow = remark.create({
-              source: jsonFile.responseText,
+              source:
+                jsonFile.responseText
+                  .replace(/\{\{baseurl\}\}/g, '{{ site.baseurl }}'),
               highlightStyle: 'googlecode',
               ratio: '16:9',
               slideNumberFormat: '',
