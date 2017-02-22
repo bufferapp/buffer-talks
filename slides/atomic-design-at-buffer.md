@@ -28,6 +28,7 @@ class: fifty-fifty
 
 .left-panel[
 # Atoms
+<img src="/images/AtomicDesign/atoms.png" alt="atoms" width="35%" />
 ]
 
 .right-panel[

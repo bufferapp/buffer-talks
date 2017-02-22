@@ -21,6 +21,11 @@ code {
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   color: #59626A;
+  font-size: 1.5rem;
+}
+
+.remark-slide-content h1 {
+  font-size: 4rem;
 }
 
 /* title */
@@ -91,4 +96,9 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.remark-slide-content.fifty-fifty p {
+  text-align: center;
 }
