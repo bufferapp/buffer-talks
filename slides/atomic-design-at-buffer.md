@@ -260,7 +260,7 @@ class: fifty-fifty
 
 .right-panel[
 - Work in many different contexts
-- [Buffer Components](https://github.com/bufferapp/buffer-components)
+- [Buffer Components](https://github.com/bufferapp/buffer-components) <small>[(demo)](https://bufferapp.github.io/buffer-components/)</small>
 ]
 
 ???
@@ -280,7 +280,7 @@ class: fifty-fifty
 
 .right-panel[
 - Made up of Buffer Components
-- [Buffer Web Components](https://github.com/bufferapp/buffer-web-components)
+- [Buffer Web Components](https://github.com/bufferapp/buffer-web-components) <small>[(demo)](https://bufferapp.github.io/buffer-web-components/)</small>
 ]
 
 ???
@@ -310,9 +310,15 @@ class: fifty-fifty
 
 ---
 
-# Atom / Molecule / Page Flow
+class: title
 
-<img src="/images/AtomicDesign/AtomsMoleculesPages.png" alt="Buffer Pages" width="60%" />
+# Atom &raquo; Molcule &raquo; Page
+
+---
+
+class: center, middle
+
+<img src="/images/AtomicDesign/flow.png" alt="flow" width="70%" />
 
 ---
 
