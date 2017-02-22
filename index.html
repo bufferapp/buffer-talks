@@ -5,16 +5,16 @@ title: Buffer Talks
 <ul class="posts">
     {% for post in site.posts %}
         <li>
-            <div class="details">
+            <small>
                 {{ post.date | date_to_string }}
-            </div>
+            </small>
             <a href="{{post.url}}">
-                <h1 class="post-title">{{ post.title }}</h1>
+              <h2 class="post-title">{{ post.title }}</h1>
             </a>
             <p>
-                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-                &raquo;
-                <a href="{{post.url}}">view slides</a>
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+              &raquo;
+              <a href="{{post.url}}">view slides</a>
             </p>
             {% unless forloop.last %}
                 <div class="divider">&bull;</div>
