@@ -193,14 +193,14 @@ class: segue
 class: fifty-fifty
 
 .left-panel[
+<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="50%" />
+]
+
+.right-panel[
 # Why?
 - there was no structure
 - no dedicated Mobile Design Position
 - making switch between products seamless
-]
-
-.right-panel[
-<img src="/images/AtomicDesign/history.gif" alt="Buffer Android History" width="50%" />
 ]
 
 ---
