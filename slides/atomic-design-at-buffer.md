@@ -195,6 +195,8 @@ class: fifty-fifty
 
 ---
 
+class: segue
+
 # Atomic Design At Buffer
 
 ---
@@ -246,12 +248,17 @@ class: segue
 
 ---
 
-# Buffer Web - Atoms
+class: fifty-fifty
 
-- Buffer Components
+.left-panel[
+# Atoms
+<img src="/images/AtomicDesign/atoms.png" alt="atoms" width="35%" />
+]
+
+.right-panel[
 - Work in many different contexts
-
-<img src="/images/AtomicDesign/BufferComponents.png" alt="Buffer Components" width="20%" />
+- Buffer Components
+]
 
 ???
 
@@ -261,12 +268,17 @@ class: segue
 
 ---
 
-# Buffer Web - Molecules
+class: fifty-fifty
 
-- Buffer Web Components
+.left-panel[
+# Molecules
+<img src="/images/AtomicDesign/molecules.png" alt="molecules" width="35%" />
+]
+
+.right-panel[
 - Made up of Buffer Components
-
-<img src="/images/AtomicDesign/BufferWebComponents.png" alt="Buffer Web Components" width="40%" />
+- Buffer Web Components Repository
+]
 
 ???
 
@@ -276,10 +288,17 @@ class: segue
 
 ---
 
-# Buffer Web - Pages
+class: fifty-fifty
 
+.left-panel[
+# Page
+<img src="/images/AtomicDesign/page-web.png" alt="page" width="35%" />
+]
+
+.right-panel[
 - Made up of Molecules
 - Sometimes need to use an Atom directly (labels are common)
+]
 
 ???
 
@@ -299,4 +318,6 @@ class: segue
 
 ---
 
-# Questions
+class: title
+
+# Questions?
