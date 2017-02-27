@@ -12,6 +12,11 @@ class: quote
 
 \- Brad Frost
 
+???
+
+- a design system is a visual language that defines how things look and feel
+- brings unification to the product
+
 ---
 
 # Atomic Design
