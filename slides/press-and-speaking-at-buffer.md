@@ -1,6 +1,6 @@
 class: title
 
-# Speaking and Press at Buffer
+# Speaking Engagements and Press
 
 .footnote[Joe Birch <small>and</small> Hailley Griffis]
 
