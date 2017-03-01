@@ -1,7 +1,7 @@
 class: title
 
-# Press and Speaking at Buffer
+# Speaking and Press at Buffer
 
-.footnote[Hailley Griffis ([@hailleymari](https://twitter.com/hailleymari))]
+.footnote[Joe Birch <small>and</small> Hailley Griffis]
 
 ---
