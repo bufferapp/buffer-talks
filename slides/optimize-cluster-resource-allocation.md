@@ -3,14 +3,13 @@ class: title
 
 # Optimize Cluster Resource Allocation
 
-.footnote[Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))]
-
 ---
 
 class: segue
 
 # Harrison Harnisch
 ## Senior Software Engineer @ Buffer
+### [@hjharnis](https://twitter.com/hjharnis)
 
 ???
 
