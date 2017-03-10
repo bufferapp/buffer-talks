@@ -61,9 +61,33 @@ class: fifty-fifty
 ]
 .right-panel[
 - Deployed the service to Kubernetes
-- Manually verified that the service was online
+- Manually verified that the service was operational
 ]
 
 ???
 
 - We started doing a slow rollout
+
+---
+
+class: segue
+
+# 1%
+
+---
+
+class: segue
+
+# 1% ➡️️ 10%
+
+---
+
+class: segue
+
+# 1% ➡️️ 10% ➡️️ 50%
+
+---
+
+class: segue
+
+# 1% ➡️️ 10% ➡️️ 🔥
