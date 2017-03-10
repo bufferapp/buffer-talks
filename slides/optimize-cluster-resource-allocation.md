@@ -180,11 +180,10 @@ class: fifty-fifty
 .right-panel[
 - Pods are exceeding resource limits
 - Kubernetes kills Pods
+
+
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/UnderAllocation.png" alt="Node" width="70%" />]
 ]
-
-???
-
-- TODO: need image here
 
 ---
 
@@ -197,11 +196,10 @@ class: fifty-fifty
 .right-panel[
 - Pods can never fully utilize resources
 - Kubernetes lets pods run, but each pod is allocated extra resources
+
+
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/OverAllocation.png" alt="Node" width="70%" />]
 ]
-
-???
-
-- TODO: need image here
 
 ---
 
@@ -214,3 +212,13 @@ class: segue
 class: segue
 
 # It becomes a problem when you _scale up_ replicas
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/OverAllocation.png" alt="Node" width="50%" />
+
+# vs
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/JustRight.png" alt="Node" width="50%" />
