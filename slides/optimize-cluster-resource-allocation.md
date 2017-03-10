@@ -136,10 +136,29 @@ class: fifty-fifty
 
 # Resource Limits
 
-- pods run with unbounded CPU and memory limits
 - limits can be set on both CPU and memory utilization
-- Kubernetes will cycle containers when limits a reached
+- pods run with unbounded CPU and memory limits
+- Kubernetes will restart containers when limits a reached
 
 ???
 
 - capable of consuming all resources on a node
+
+---
+
+class: segue
+
+# How do we optimally set CPU and Memory limits?
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Optimal Limits
+]
+
+.right-panel[
+- Pods have enough resources to complete their task
+- Nodes run maximum amount of pods
+]
