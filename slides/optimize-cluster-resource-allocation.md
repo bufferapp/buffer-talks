@@ -41,8 +41,29 @@ class: fifty-fifty
 # Case Study: Links Service
 ]
 .right-panel[
-- Settled on a simple architecture using Node and DynamoDB
+- Settled on a simple design using Node and DynamoDB
 
 <img src="{{baseurl}}/images/KubernetesResourceOptimization/Node.png" alt="Node" width="35%" />
 <img src="{{baseurl}}/images/KubernetesResourceOptimization/DynamoDB.png" alt="DynamoDB" width="35%" />
 ]
+
+???
+
+- optimized for speed and cost
+- all persistent storage handled outside Kubernetes
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Case Study: Links Service
+]
+.right-panel[
+- Deployed the service to Kubernetes
+- Manually verified that the service was online
+]
+
+???
+
+- We started doing a slow rollout
