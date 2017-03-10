@@ -107,3 +107,25 @@ class: fifty-fifty
 ???
 
 - repeated this process until the service seem stable but ended up being a ~100 containers before steady state was reached
+
+---
+
+class: segue
+
+# Back to 0%
+
+class: fifty-fifty
+
+.left-panel[
+# Postmortem
+]
+
+.right-panel[
+- I had copied and pasted a `Deployment` from another service
+- The `Deployment` included resource limits
+]
+
+???
+
+- resource limits set to 100Mi memory
+- it got me thinking about what optimal resource limits look like
