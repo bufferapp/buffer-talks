@@ -222,3 +222,25 @@ class: center, middle
 # vs
 
 <img src="{{baseurl}}/images/KubernetesResourceOptimization/JustRight.png" alt="Node" width="50%" />
+
+---
+
+class: segue
+
+# That's one extra pod that could be running
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Even
+]
+
+.right-panel[
+- Pods have enough resources to complete the task
+- Kubernetes allocates a nodes resources efficiently
+
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/JustRight.png" alt="Node" width="70%" />
+]
