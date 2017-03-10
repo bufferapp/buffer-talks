@@ -100,6 +100,6 @@ class: fifty-fifty
 # Case Study: Links Service
 ]
 .right-panel[
-- Scale up replicas (4x - 20 pods)
+- Scale up replicas (5x - 20 pods)
 - Helped, but pods still repeatedly dying
 ]
