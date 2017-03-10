@@ -114,6 +114,8 @@ class: segue
 
 # Back to 0%
 
+---
+
 class: fifty-fifty
 
 .left-panel[
@@ -129,3 +131,15 @@ class: fifty-fifty
 
 - resource limits set to 100Mi memory
 - it got me thinking about what optimal resource limits look like
+
+---
+
+# Resource Limits
+
+- pods run with unbounded CPU and memory limits
+- limits can be set on both CPU and memory utilization
+- Kubernetes will cycle containers when limits a reached
+
+???
+
+- capable of consuming all resources on a node
