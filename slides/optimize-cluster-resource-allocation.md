@@ -60,7 +60,7 @@ class: fifty-fifty
 # Case Study: Links Service
 ]
 .right-panel[
-- Deployed the service to Kubernetes
+- Deployed the service to Kubernetes (4 replicas)
 - Manually verified that the service was operational
 ]
 
@@ -91,3 +91,15 @@ class: segue
 class: segue
 
 # 1% ➡️️ 10% ➡️️ 🔥
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Case Study: Links Service
+]
+.right-panel[
+- Scale up replicas (4x - 20 pods)
+- Helped, but pods still repeatedly dying
+]
