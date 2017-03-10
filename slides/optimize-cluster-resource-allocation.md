@@ -258,10 +258,16 @@ class: segue
 - Goal: Understand what **one pod** can handle
 - Start with a very conservative set of limits
 
-```yaml
+```
 # for node might be something like
 replicas: 1
 ...
 cpu: 100m
 memory: 100Mi
 ```
+
+---
+
+class: segue
+
+# Let's Do Some Stress Testing
