@@ -32,3 +32,17 @@ class: fifty-fifty
 
 - powers the Buffer share button count, used on various blogs
 - the highest throughput endpoint in the Buffer API
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Case Study: Links Service
+]
+.right-panel[
+- Settled on a simple architecture using Node and DynamoDB
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/Node.png" alt="Node" width="35%" />
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/DynamoDB.png" alt="DynamoDB" width="35%" />
+]
