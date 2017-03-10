@@ -244,3 +244,24 @@ class: fifty-fifty
 
 <img src="{{baseurl}}/images/KubernetesResourceOptimization/JustRight.png" alt="Node" width="70%" />
 ]
+
+---
+
+class: segue
+
+# Let's Set Some Limits
+
+---
+
+# Setting Resource Limits
+
+- Goal: Understand what **one pod** can handle
+- Start with a very conservative set of limits
+
+```yaml
+# for node might be something like
+replicas: 1
+...
+cpu: 100m
+memory: 100Mi
+```
