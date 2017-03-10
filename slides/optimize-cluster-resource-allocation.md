@@ -103,3 +103,7 @@ class: fifty-fifty
 - Scale up replicas (5x - 20 pods)
 - Helped, but pods still repeatedly dying
 ]
+
+???
+
+- repeated this process until the service seem stable but ended up being a ~100 containers before steady state was reached
