@@ -162,3 +162,55 @@ class: fifty-fifty
 - Pods have enough resources to complete their task
 - Nodes run maximum amount of pods
 ]
+
+---
+
+class: segue
+
+# Under/Over/Even Resource Allocation
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Under-allocation
+]
+
+.right-panel[
+- Pods are exceeding resource limits
+- Kubernetes kills Pods
+]
+
+???
+
+- TODO: need image here
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Overallocation
+]
+
+.right-panel[
+- Pods can never fully utilize resources
+- Kubernetes lets pods run, but each pod is allocated extra resources
+]
+
+???
+
+- TODO: need image here
+
+---
+
+class: segue
+
+# Overallocation is _tricky_
+
+---
+
+class: segue
+
+# It becomes a problem when you _scale up_ replicas
