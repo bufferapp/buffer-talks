@@ -343,7 +343,8 @@ memory: 50Mi # 50 Mebibytes
 
 class: segue
 
-# Let's Do Some Stress Testing
+# Stress Testing
+## Setting Limits For etcd
 
 ???
 TODO: not sure if this will be local
@@ -361,3 +362,14 @@ TODO: not sure if this will be local
 - decrease memory to 25Mi and run test
 
 ---
+
+class: fifty-fifty
+
+.left-panel[
+# Case Study: Links Service
+]
+
+.right-panel[
+- Went through this process with the links service container
+- The service was able to handle all requests with 4 replicas
+]
