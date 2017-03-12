@@ -286,28 +286,56 @@ class: fifty-fifty
 - manages pods and containers
 - fetches container usage statistics from cAdvisor
 
-.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/cadvisor.png" alt="kubelet" width="40%" />]
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/kubelet.png" alt="kubelet" width="40%" />]
 ]
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Heapster
+]
+
+.right-panel[
+- aggregates cluster wide monitoring and event data
+- queries information from Kubelets
+- pushes data to a configurable storage backend
+
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/heapster.png" alt="heapster" width="40%" />]
+]
+
+???
+
+- InfluxDB and Google Cloud Monitoring
+
+---
+
+class: center
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/monitoring-architecture.png" alt="monitoring-architecture" width="80%" />
 
 ---
 
 class: segue
 
-# Let's Set Some Limits
+# Demo
+## Setting Limits For etcd
 
 ---
 
-# Setting Resource Limits
+# Getting Started
 
 - Goal: Understand what **one pod** can handle
 - Start with a very conservative set of limits
+- Only change one thing at time and observe changes
 
-```
-# node might be something like
+```yaml
+# limits might look something like
 replicas: 1
 ...
-cpu: 10m
-memory: 50Mi
+cpu: 100m # 1/10th of a core
+memory: 50Mi # 50 Mebibytes
 ```
 
 ---
