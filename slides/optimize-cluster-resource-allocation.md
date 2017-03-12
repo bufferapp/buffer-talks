@@ -249,6 +249,50 @@ class: fifty-fifty
 
 class: segue
 
+# Kubernetes Monitoring
+
+---
+
+class: center
+
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/monitoring-architecture.png" alt="monitoring-architecture" width="80%" />
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# cAdvisor
+]
+
+.right-panel[
+- container resource monitoring agent
+- auto discovers containers in the node
+- collects CPU, memory, filesystem and network usage
+
+
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/cadvisor.png" alt="cAdvisor" width="40%" />]
+]
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Kubelet
+]
+
+.right-panel[
+- manages pods and containers
+- fetches container usage statistics from cAdvisor
+
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/cadvisor.png" alt="kubelet" width="40%" />]
+]
+
+---
+
+class: segue
+
 # Let's Set Some Limits
 
 ---
@@ -259,11 +303,11 @@ class: segue
 - Start with a very conservative set of limits
 
 ```
-# for node might be something like
+# node might be something like
 replicas: 1
 ...
-cpu: 100m
-memory: 100Mi
+cpu: 10m
+memory: 50Mi
 ```
 
 ---
@@ -271,3 +315,18 @@ memory: 100Mi
 class: segue
 
 # Let's Do Some Stress Testing
+
+???
+TODO: not sure if this will be local
+- need setup open with
+  - k get po -w -a
+  - xdg-open TODO
+- create deployment
+- create service
+- add data to etcd
+- curl data to show format
+- run test with low limits
+- increase memory to 50Mi and run test
+- increase CPU to 100m and run test
+- increase CPU to 1000m and run test
+- decrease memory to 25Mi and run test
