@@ -119,18 +119,19 @@ class: segue
 class: fifty-fifty
 
 .left-panel[
-# Postmortem
+# Case Study: Links Service
 ]
 
 .right-panel[
 - I had copied and pasted a `Deployment` from another service
 - The `Deployment` included resource limits
+- `kubectl describe` was reporting `OOMKilled`
 ]
 
 ???
 
-- resource limits set to 100Mi memory
-- it got me thinking about what optimal resource limits look like
+- OOMKilled occurs when Kubernetes kills a pod due to memory constraints
+- I could adjust the memory limits, but how much would be enough?
 
 ---
 
@@ -358,3 +359,5 @@ TODO: not sure if this will be local
 - increase CPU to 100m and run test
 - increase CPU to 1000m and run test
 - decrease memory to 25Mi and run test
+
+---
