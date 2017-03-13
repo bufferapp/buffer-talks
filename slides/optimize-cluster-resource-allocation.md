@@ -1,7 +1,8 @@
 
-class: title
+class: segue
 
-# Optimize Cluster Resource Allocation
+# Load Testing Kubernetes
+## How To Optimize Your Cluster Resource Allocation in Production
 
 ---
 
