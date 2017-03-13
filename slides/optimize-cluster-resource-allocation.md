@@ -385,19 +385,21 @@ class: segue
 
 
 ???
-TODO: not sure if this will be local
-- need setup open with
-  - k get po -w -a
-  - xdg-open TODO
+
+Will probably want to use cAdvisor directly to view container utilization
+
 - create deployment
 - create service
 - add data to etcd
 - curl data to show format
-- run test with low limits
-- increase memory to 50Mi and run test
-- increase CPU to 100m and run test
-- increase CPU to 1000m and run test
-- decrease memory to 25Mi and run test
+- do ramp up test
+  - increase memory (re-run test)
+  - increase cpu (re-run test)
+  - decrese memory (re-run test)
+- do duration test
+  - make any fine tune adjustments
+
+Show a quick view of Graphana data to show that data was being collected
 
 ---
 
