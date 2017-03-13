@@ -330,7 +330,7 @@ class: center
 - Start with a very conservative set of limits
 - Only change one thing at time and observe changes
 
-```
+```yaml
 # limits might look something like
 replicas: 1
 ...
