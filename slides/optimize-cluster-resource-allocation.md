@@ -139,7 +139,7 @@ class: fifty-fifty
 
 - limits can be set on both CPU and memory utilization
 - pods run with unbounded CPU and memory limits
-- Kubernetes will restart containers when limits a reached
+- Kubernetes will restart containers when limits are crossed
 
 ???
 
@@ -179,12 +179,13 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- Pods are exceeding resource limits
-- Kubernetes kills Pods
-
-
 .center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/UnderAllocation.png" alt="Node" width="70%" />]
 ]
+
+???
+
+- Pods are exceeding resource limits
+- Kubernetes kills Pods
 
 ---
 
@@ -195,12 +196,13 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- Pods can never fully utilize resources
-- Kubernetes lets pods run, but each pod is allocated extra resources
-
-
 .center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/OverAllocation.png" alt="Node" width="70%" />]
 ]
+
+???
+
+- Pods can never fully utilize resources
+- Kubernetes lets pods run, but each pod is allocated extra resources
 
 ---
 
@@ -239,12 +241,13 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- Pods have enough resources to complete the task
-- Kubernetes allocates a nodes resources efficiently
-
-
 <img src="{{baseurl}}/images/KubernetesResourceOptimization/JustRight.png" alt="Node" width="70%" />
 ]
+
+???
+
+- Pods have enough resources to complete the task
+- Kubernetes allocates a nodes resources efficiently
 
 ---
 
@@ -267,13 +270,14 @@ class: fifty-fifty
 ]
 
 .right-panel[
+.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/cadvisor.png" alt="cAdvisor" width="40%" />]
+]
+
+???
+
 - container resource monitoring agent
 - auto discovers containers in the node
 - collects CPU, memory, filesystem and network usage
-
-
-.center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/cadvisor.png" alt="cAdvisor" width="40%" />]
-]
 
 ---
 
@@ -284,11 +288,13 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- manages pods and containers
-- fetches container usage statistics from cAdvisor
-
 .center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/kubelet.png" alt="kubelet" width="40%" />]
 ]
+
+???
+
+- manages pods and containers
+- fetches container usage statistics from cAdvisor
 
 ---
 
@@ -299,16 +305,15 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- aggregates cluster wide monitoring and event data
-- queries information from Kubelets
-- pushes data to a configurable storage backend
-
 .center[<img src="{{baseurl}}/images/KubernetesResourceOptimization/heapster.png" alt="heapster" width="40%" />]
 ]
 
 ???
 
-- InfluxDB and Google Cloud Monitoring
+- aggregates cluster wide monitoring and event data
+- queries information from Kubelets
+- pushes data to a configurable storage backend
+  - InfluxDB and Google Cloud Monitoring
 
 ---
 
@@ -318,33 +323,66 @@ class: center
 
 ---
 
-class: segue
-
-# Demo
-## Setting Limits For etcd
-
----
-
-# Getting Started
+# Setting Limits
 
 - Goal: Understand what **one pod** can handle
 - Start with a very conservative set of limits
 - Only change one thing at time and observe changes
 
-```yaml
+```
 # limits might look something like
 replicas: 1
 ...
 cpu: 100m # 1/10th of a core
 memory: 50Mi # 50 Mebibytes
 ```
+---
+
+class: segue
+
+# Testing Strategies
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Ramp Up Test
+]
+
+.right-panel[
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/breakingpoint.png" alt="breaking point" width="80%" />
+]
+
+???
+
+- Ramp up test helps us determine where the breaking point is
+- this is the where you make large adjustments to limits
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Duration Test
+]
+
+.right-panel[
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/good-duration-load-test.png" alt="duration test" width="80%" />
+]
+
+???
+
+- Longevity test helps us determine how we perform near breaking point
+- This is where you make fine tune adjustments to limits
 
 ---
 
 class: segue
 
-# Stress Testing
+# Demo
 ## Setting Limits For etcd
+
 
 ???
 TODO: not sure if this will be local
@@ -363,13 +401,76 @@ TODO: not sure if this will be local
 
 ---
 
+class: segue
+
+# Keep A Fail Log
+
+???
+
+- Someday the qualitative information will save you
+- Helps share the burden of maintenance
+
+---
+
 class: fifty-fifty
 
 .left-panel[
-# Case Study: Links Service
+# Some Observed Failure Modes
 ]
 
 .right-panel[
-- Went through this process with the links service container
-- The service was able to handle all requests with 4 replicas
+- Memory is slowly increasing
+- CPU is pegged at 100%
+- 500s
+- High response times
+- Large variance in response times
+- Dropped Requests
 ]
+
+---
+
+class: segue
+
+# Case Study: Links Service
+## Lessons Learned
+
+???
+
+- Scaling up replicas will not fix all scaling problems
+- Almost every service behaves differently when near breaking point
+- One requirement for production ready means appropriate resource allocation
+
+---
+
+class: segue
+
+# It's About Increasing Predictability
+## And Getting More Sleep
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Looking Ahead
+]
+
+.right-panel[
+- Amazing at monitoring a cluster
+- Gap when observing a pod or container
+]
+
+???
+
+- Current monitoring solutions help us monitor resource trends over time
+- Not easy to get immediate fine grain feedback
+  - cAdvisor or exec and run top etc.
+- Both matter!
+  - macro is more for ops
+  - micro is more for developers
+
+---
+
+class: segue, center
+
+# Questions?
