@@ -26,7 +26,7 @@ class: fifty-fifty
 ]
 .right-panel[
 - Preexisting endpoint in our monolith
-- Serve the number of times a link is shared within Buffer
+- Serves the number of times a link is shared within Buffer
 ]
 
 ???
@@ -101,7 +101,7 @@ class: fifty-fifty
 # Case Study: Links Service
 ]
 .right-panel[
-- Scale up replicas (5x - 20 pods)
+- Scaled up replicas (5x - 20 pods)
 - Helped, but pods still repeatedly dying
 ]
 
@@ -138,9 +138,9 @@ class: fifty-fifty
 
 # Resource Limits
 
-- limits can be set on both CPU and memory utilization
-- pods run with unbounded CPU and memory limits
-- Kubernetes will restart containers when limits are crossed
+- Limits can be set on both CPU and memory utilization
+- Pods run with unbounded CPU and memory limits
+- Kubernetes will restart containers when limits are exceeded
 
 ???
 
@@ -162,7 +162,7 @@ class: fifty-fifty
 
 .right-panel[
 - Pods have enough resources to complete their task
-- Nodes run maximum amount of pods
+- Nodes run maximum number of pods
 ]
 
 ---
@@ -374,7 +374,7 @@ class: fifty-fifty
 
 ???
 
-- Longevity test helps us determine how we perform near breaking point
+- Duration test helps us determine how the pod performs near breaking point
 - This is where you make fine tune adjustments to limits
 
 ---
@@ -455,7 +455,7 @@ class: segue
 class: fifty-fifty
 
 .left-panel[
-# Looking Ahead
+# Looking Ahead: Kubernetes
 ]
 
 .right-panel[
