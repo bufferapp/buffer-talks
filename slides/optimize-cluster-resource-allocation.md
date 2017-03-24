@@ -352,7 +352,7 @@ class: fifty-fifty
 ]
 
 .right-panel[
-<img src="{{baseurl}}/images/KubernetesResourceOptimization/breakingpoint.png" alt="breaking point" width="80%" />
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/ramp-up-test.png" alt="ramp up test" width="80%" />
 ]
 
 ???
@@ -369,7 +369,7 @@ class: fifty-fifty
 ]
 
 .right-panel[
-<img src="{{baseurl}}/images/KubernetesResourceOptimization/good-duration-load-test.png" alt="duration test" width="80%" />
+<img src="{{baseurl}}/images/KubernetesResourceOptimization/duration-test.png" alt="duration test" width="80%" />
 ]
 
 ???
