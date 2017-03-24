@@ -318,12 +318,6 @@ class: fifty-fifty
 
 ---
 
-class: center
-
-<img src="{{baseurl}}/images/KubernetesResourceOptimization/monitoring-architecture.png" alt="monitoring-architecture" width="80%" />
-
----
-
 # Setting Limits
 
 - Goal: Understand what **one pod** can handle
