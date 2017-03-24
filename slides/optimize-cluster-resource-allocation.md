@@ -352,7 +352,7 @@ class: fifty-fifty
 ???
 
 - Ramp up test helps us determine where the breaking point is
-- this is the where you make large adjustments to limits
+- this is the where you make order of magnitude adjustments to limits
 
 ---
 
