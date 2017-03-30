@@ -139,7 +139,7 @@ class: fifty-fifty
 # Resource Limits
 
 - Limits can be set on both CPU and memory utilization
-- Pods run with unbounded CPU and memory limits
+- Containers run with unbounded CPU and memory limits
 - Kubernetes will restart containers when limits are exceeded
 
 ???
@@ -185,7 +185,7 @@ class: fifty-fifty
 
 ???
 
-- Pods are exceeding resource limits
+- Containers are exceeding resource limits
 - Kubernetes kills Pods
 
 ---
@@ -453,8 +453,8 @@ class: fifty-fifty
 ]
 
 .right-panel[
-- Amazing at monitoring a cluster
-- Gap when observing a pod or container
+- Huge step forward for ops and cluster wide operations
+- There's pretty big opportunity to help dev
 ]
 
 ???
