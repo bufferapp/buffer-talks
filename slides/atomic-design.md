@@ -76,3 +76,15 @@ class: quote
 > I feel like I'm Moving Slower
 
 \- Developers
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/commits-per-author.png" alt="commits per author"/>
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png" alt="commits per author"/>
