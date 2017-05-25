@@ -68,3 +68,11 @@ index e1e2f0f..64809b9 100644
 
 ```
 ]
+
+---
+
+class: quote
+
+> I feel like I'm Moving Slower
+
+\- Developers
