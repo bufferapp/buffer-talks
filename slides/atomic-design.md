@@ -85,6 +85,23 @@ class: center, middle
 
 ---
 
+- TODO: Individual commits per month graph
+- TODO: Individual lines per month graph
+
+---
+
+- Individuals Are Committing Less Often
+- Commit Size Increasing
+- Individuals Are Writing Less Code
+
+---
+
 class: center, middle
 
 <img src="{{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png" alt="commits per author"/>
+
+---
+
+class: segue
+
+## In Smaller Partitioned Teams, Individuals Are More Productive
