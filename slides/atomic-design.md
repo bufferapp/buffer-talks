@@ -127,11 +127,15 @@ class: fifty-fifty
 
 ---
 
-# Atomic Design
+class: segue
+
+# What Is Atomic Design?
 
 ---
 
 class: center, middle
+
+# Atom
 
 <img src="{{baseurl}}/images/MigrateWithAtomicDesign/atom.jpg" alt="atom"/>
 
@@ -139,10 +143,20 @@ class: center, middle
 
 class: center, middle
 
-<img src="{{baseurl}}/images/MigrateWithAtomicDesign/molecule.jpg" alt="molecule" width="60%"/>
+# Molecule
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/molecule.jpg" alt="molecule" width="40%"/>
 
 ---
 
 class: center, middle
 
-<img src="{{baseurl}}/images/MigrateWithAtomicDesign/organism.jpg" alt="organism" width="60%"/>
+# Organism
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/organism.jpg" alt="organism" width="50%"/>
+
+---
+
+class: title
+
+# Atom&raquo;Molecule&raquo;Organism
