@@ -71,6 +71,15 @@ index e1e2f0f..64809b9 100644
 
 ---
 
+class: segue
+
+## Buffer Web In Human Years
+# **~103 Years Old**
+- Avg. Startup Lifespan: ~5 Years
+- Avg. Human Lifespan: ~79 Years
+
+---
+
 class: quote
 
 > I feel like I'm Moving Slower
@@ -79,32 +88,42 @@ class: quote
 
 ---
 
-class: center, middle
+class: fifty-fifty
 
-<img src="{{baseurl}}/images/MigrateWithAtomicDesign/commits-per-author.png" alt="commits per author"/>
+.left-panel[
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/commits-per-author.png" alt="commits per author" width="100%" />
+]
 
----
-
-- TODO: Individual commits per month graph
-- TODO: Individual lines per month graph
-
----
-
+.right-panel[
 - Individuals Are Committing Less Often
-- Commit Size Increasing
+- Commit Size Are Increasing
 - Individuals Are Writing Less Code
-
----
-
-class: center, middle
-
-<img src="{{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png" alt="commits per author"/>
+]
 
 ---
 
 class: segue
 
-## In Smaller Partitioned Teams, Individuals Are More Productive
+# Commit Data Alone Doesn't Mean Much
+## Pair It With Qualitative Observations
+
+???
+
+- Have to touch lots of code to get simple tasks done
+- Small changes have ability to break other parts of the codebase
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png" alt="commits per author"/>
+]
+
+.right-panel[
+- Adding more team members slows down individuals
+- Individuals get more done in small teams
+]
 
 ---
 
