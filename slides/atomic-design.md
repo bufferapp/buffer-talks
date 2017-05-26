@@ -39,7 +39,7 @@ class: center, middle
 
 .left.inline-block[
 ```diff
-Author: Emily <eplummer26@gmail.com>
+Author: Emily
 Date:   Tue May 23 07:24:38 2017 -0700
 
     update tests
