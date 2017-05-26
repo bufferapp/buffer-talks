@@ -105,3 +105,25 @@ class: center, middle
 class: segue
 
 ## In Smaller Partitioned Teams, Individuals Are More Productive
+
+---
+
+# Atomic Design
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/atom.jpg" alt="atom"/>
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/molecule.jpg" alt="molecule" width="60%"/>
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/organism.jpg" alt="organism" width="60%"/>
