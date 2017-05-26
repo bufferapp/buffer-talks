@@ -75,8 +75,8 @@ class: segue
 
 ## Buffer Web In Human Years
 # **~103 Years Old**
-- Avg. Startup Lifespan: ~5 Years
-- Avg. Human Lifespan: ~79 Years
+Avg. Startup Lifespan: ~5 Years  
+Avg. Human Lifespan: ~79 Years
 
 ---
 
