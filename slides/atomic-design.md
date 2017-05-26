@@ -73,7 +73,7 @@ index e1e2f0f..64809b9 100644
 
 class: segue
 
-## Buffer Web In Human Years
+## Codebase In Human Years
 # **~103 Years Old**
 Avg. Startup Lifespan: ~5 Years  
 Avg. Human Lifespan: ~79 Years
