@@ -34,7 +34,7 @@ class: fifty-fifty
 
 .left-panel[
 # Rewrite?
-- ⬇️ Individual Commit Frequency
+- ⬇️ Individual Commits / Month
 - ⬆️ Commit Size
 - ⬇️ Individual Output
 ]
@@ -42,3 +42,18 @@ class: fifty-fifty
 .right-panel[
 <img src="{{baseurl}}/images/MigrateWithAtomicDesign/commits-per-author.png" alt="commits per author" width="100%" />
 ]
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Rewrite?
+]
+
+.right-panel[
+- Simple tasks require large changes
+- Small changes have unintended side effects
+]
+
+---
