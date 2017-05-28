@@ -212,3 +212,11 @@ class: center, middle
 class: center, middle
 
 <iframe src="https://bufferapp.github.io/buffer-web-components/?selectedKind=TextPost&selectedStory=default.%20All%20approval%20view.&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel" height="90%" width="90%" frameBorder="0" />
+
+---
+
+# For Buffer, this meant creating 2 new repositories
+
+---
+
+![marginal productivity]({{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png)
