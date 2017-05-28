@@ -82,5 +82,125 @@ class: middle, center
 class: segue
 
 # Complete Rewrites Aren't Bad _Sync Rewrites_ Are
+TODO: ^ wording
 
 ---
+
+class: segue
+
+# **Atomic Design** Can Help Us With An Async Rewrite
+
+---
+
+# Atomic Design
+
+- Atom
+- Molecule
+- Organism
+
+---
+
+class: quote
+
+> Build complexity out of simple elements stitched together
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Atom
+<img src="{{baseurl}}/images/AtomicDesign/atoms.png" alt="atom" width="35%" />
+]
+
+.right-panel[
+- Building block of an application
+- Work in a number of contexts
+- Often not useful on their own
+]
+
+---
+
+# Atom
+
+```html
+<label for="text-input">Search This Site</label>
+```
+
+<label for="text-input">Search This Site</label>
+
+```html
+<input type="text" placeholder="Enter Keyword" id="text-input"/>
+```
+
+<input type="text" placeholder="Enter Keyword" id="text-input"/>
+
+```html
+<button>Search</button>
+```
+
+<button>Search</button>
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Molecule
+<img src="{{baseurl}}/images/AtomicDesign/molecules.png" alt="molecule" width="35%" />
+]
+
+.right-panel[
+- Groups of atoms bonded together
+- Usually simple and do one thing well
+- Built for re-use
+]
+
+---
+
+# Molecule
+
+**Search Component**
+
+```html
+<div>
+  <div>
+    <label for="text-input">Search This Site</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
+```
+
+<div>
+  <div>
+    <label for="text-input">Search This Site</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
+
+---
+
+class: fifty-fifty
+
+.left-panel[
+# Organism
+<img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="organism" width="35%" />
+]
+
+.right-panel[
+- Groups of Molecules
+- Relatively complex
+- Enough context defined to perform a task
+]
+
+---
+
+# Organism
+
+# TODO: show buffer web image
+
+---
+
+# TODO: Address why Template and Page are left out
