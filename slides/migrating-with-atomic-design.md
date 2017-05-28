@@ -57,3 +57,30 @@ class: fifty-fifty
 ]
 
 ---
+
+class: segue
+
+# Should I Rewrite?
+
+---
+
+class: middle, center
+
+# Sync vs. Async Rewrite
+
+???
+
+- Sync Rewrite
+  - sometimes called a complete rewrite
+  - blocks new features
+- Async Rewrite
+  - sometimes called a migration or a re-factor
+  - rewritten code can be shipped alongside new features
+
+---
+
+class: segue
+
+# Complete Rewrites Aren't Bad _Sync Rewrites_ Are
+
+---
