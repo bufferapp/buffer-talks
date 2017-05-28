@@ -217,6 +217,21 @@ class: center, middle
 
 # For Buffer, this meant creating 2 new repositories
 
+[Buffer Components](https://github.com/bufferapp/buffer-components)  
+[Buffer Web Components](https://github.com/bufferapp/buffer-web-components)
+
 ---
 
 ![marginal productivity]({{baseurl}}/images/MigrateWithAtomicDesign/marginal-productivity.png)
+
+---
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/atoms-molecules-organisms.png" alt="atoms molecules organisms" width="80%" />
+
+---
+
+# The **Atoms** and **Molecules** Can Be Used In A New Codebase
+
+---
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/migrate.png" alt="migration" width="65%" />
