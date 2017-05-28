@@ -6,16 +6,12 @@ class: title
 
 ---
 
-class: segue
-
 # Buffer Web
 ## **53,677** Commits
 ## **59** Contributors
 ## **6.5** Year Lifespan
 
 ---
-
-class: segue
 
 ## Codebase In Human Years
 # **~103 Years Old**
@@ -24,47 +20,27 @@ Avg. Human Lifespan: ~79 Years
 
 ---
 
-class: segue
-
 # Should I Rewrite?
 
 ---
 
-class: fifty-fifty
-
-.left-panel[
 # Rewrite?
 - ⬇️ Individual Commits / Month
 - ⬆️ Commit Size
 - ⬇️ Individual Output
-]
-
-.right-panel[
 <img src="{{baseurl}}/images/MigrateWithAtomicDesign/commits-per-author.png" alt="commits per author" width="100%" />
-]
 
 ---
 
-class: fifty-fifty
-
-.left-panel[
 # Rewrite?
-]
-
-.right-panel[
 - Simple tasks require large changes
 - Small changes have unintended side effects
-]
 
 ---
-
-class: segue
 
 # Should I Rewrite?
 
 ---
-
-class: middle, center
 
 # Sync vs. Async Rewrite
 
@@ -79,15 +55,9 @@ class: middle, center
 
 ---
 
-class: segue
-
 # Complete Rewrite !== _Sync Rewrite_
 
-TODO: Formatting
-
 ---
-
-class: segue
 
 # **Atomic Design** Can Help Us With An Async Rewrite
 
@@ -101,9 +71,7 @@ class: segue
 
 ---
 
-class: quote
-
-> Build complexity out of simple elements stitched together
+# Complexity built out of simple elements stitched together
 
 ---
 
@@ -200,10 +168,47 @@ class: fifty-fifty
 
 # Organism
 
-# TODO: show buffer web image
+TODO: show buffer web image
 
 ---
 
-# TODO: Address why Template and Page are left out
+# How Can **Atomic Design** Be Used To Do An Async Rewrite?
 
 ---
+
+# Start Small With An Atom
+
+**Examples**
+
+- Replace a `Label` on a form field
+- Replace the company `Image`
+- Replace some `Text` in a description
+
+???
+
+- Build the atoms free of any context
+- best to start with things that don't require user interaction (buttons, inputs, etc.)
+  - allows you to focus on logistical problems first
+    - How do I get atoms in the existing app?
+
+---
+
+class: center, middle
+
+<iframe src="https://bufferapp.github.io/buffer-components/?selectedKind=Text&selectedStory=default&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel" height="90%" width="90%" frameBorder="0"/>
+
+---
+
+# Increase Scope To A Molecule
+
+
+**Example: Replacing A Form**
+
+- Use the `Label` to create a `Field`
+- Use the `Field` to create a `Form`
+
+---
+
+class: center, middle
+
+<iframe src="https://bufferapp.github.io/buffer-web-components/?selectedKind=TextPost&selectedStory=default.%20All%20approval%20view.&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel" height="90%" width="90%" frameBorder="0" />
