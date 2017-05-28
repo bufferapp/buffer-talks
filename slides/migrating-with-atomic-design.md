@@ -81,8 +81,9 @@ class: middle, center
 
 class: segue
 
-# Complete Rewrites Aren't Bad _Sync Rewrites_ Are
-TODO: ^ wording
+# Complete Rewrite !== _Sync Rewrite_
+
+TODO: Formatting
 
 ---
 
@@ -204,3 +205,5 @@ class: fifty-fifty
 ---
 
 # TODO: Address why Template and Page are left out
+
+---
