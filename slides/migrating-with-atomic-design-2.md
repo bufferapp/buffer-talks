@@ -60,3 +60,14 @@ class: segue
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
 - Many of us have been there.
+
+---
+
+class: segue
+
+# There's a _third_ option
+
+???
+
+- We got into this spot because we didn't build to handle change, and now the only options feel like bad options.
+- There's a third option here: the asynchronous rewrite, to move to a change-orientated environment.
