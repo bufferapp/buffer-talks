@@ -59,4 +59,4 @@ class: segue
 - Everyone knows the eBay story. No one knows the stories of the companies that never came out the other side of the mythical rewrite unless you go to failcon a lot.
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
-- We all know those. Many of us have been there.
+- Many of us have been there.
