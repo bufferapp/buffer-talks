@@ -23,7 +23,7 @@ class: center, middle
 
 class: segue
 
-# That's not exactly true but it gets _less true_ over time
+# That's not exactly true but it gets _more true_ over time
 
 ???
 
@@ -60,6 +60,7 @@ class: segue
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
 - Many of us have been there.
+- We got into this spot because we didn't build to handle change, and now the only options feel like bad options.
 
 ---
 
@@ -69,5 +70,65 @@ class: segue
 
 ???
 
-- We got into this spot because we didn't build to handle change, and now the only options feel like bad options.
-- There's a third option here: the asynchronous rewrite, to move to a change-orientated environment.
+- There's a third option here: the asynchronous rewrite, to move to an architecture that is better at handling change
+- This is where Atomic Design helps us out
+
+---
+
+# Atomic Design
+
+- Atom
+- Molecule
+- Organism
+
+---
+
+# Atom
+
+```html
+<label for="text-input">Search This Site</label>
+```
+
+<label for="text-input">Search This Site</label>
+
+```html
+<input type="text" placeholder="Enter Keyword" id="text-input"/>
+```
+
+<input type="text" placeholder="Enter Keyword" id="text-input"/>
+
+```html
+<button>Search</button>
+```
+
+<button>Search</button>
+
+---
+
+# Molecule
+
+**Search Component**
+
+```html
+<div>
+  <div>
+    <label for="text-input">Search This Site</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
+```
+
+<div>
+  <div>
+    <label for="text-input">Search This Site</label>
+  </div>
+  <input type="text" placeholder="Enter Keyword" id="text-input"/>
+  <button>Search</button>
+</div>
+
+---
+
+# Organism
+
+<img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="organism" width="50%" />
