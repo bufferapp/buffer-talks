@@ -60,7 +60,8 @@ class: segue
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
 - Many of us have been there.
-- We got into this spot because we didn't build to handle change, and now the only options feel like bad options.
+- We got into this spot because our stack is not very amenable to change, and most importantly we didn't write code to handle change.
+- now the only options feel like bad options.
 
 ---
 
@@ -132,3 +133,84 @@ class: segue
 # Organism
 
 <img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="organism" width="50%" />
+
+---
+
+# Buffer Migration Process
+
+---
+
+# Create Atom Library
+
+<iframe src="https://bufferapp.github.io/buffer-components/" height="70%" width="100%" frameBorder="0"/>
+
+???
+
+- [Buffer Components](https://github.com/bufferapp/buffer-components)
+- Useful in almost any context
+
+---
+
+# Create Molecule Library
+
+<iframe src="https://bufferapp.github.io/buffer-web-components/" height="70%" width="100%" frameBorder="0" />
+
+???
+
+- [Buffer Web Components](https://github.com/bufferapp/buffer-web-components)
+- Some Buffer specific context set
+
+---
+
+# Migrate An Atom
+
+- Pick something small like `Text`
+- Build `Text` in the Atom Library
+- Replace one `Text` element with the new Atom
+
+???
+
+- text component is nice because it doesn't require user interaction
+- focus on the logistics of bringing an atom into the application, ex. NPM
+
+---
+
+# Build A New Feature As A Molecule
+
+- Break Design Into Atoms And Molecules
+- Build Reusable components in Atom library
+- Build App specific components in Molecule library
+
+---
+
+# Some Assembly Required
+
+<iframe src="https://giphy.com/embed/AYLNzUe39OSgE" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
+
+class: segue
+
+# Approach 1: IFrames
+
+???
+
+- Excellent for guarding CSS
+- Lots of usage of postMessage
+  - Showing and hiding overlays or tooltips
+  - Triggering UI updates in the parent frame
+  - Difficult to utilize existing resources (like websockets)
+
+---
+
+class: segue
+
+# Approach 2: Inline Styles + Unset CSS
+
+???
+
+- Requires resetting specific rules set in global scope
+  - call out specificity here
+- New overlays can be implemented in atoms and molecules
+- Easily use existing websockets
+- Can utilize existing codebase
