@@ -214,3 +214,17 @@ class: segue
 - New overlays can be implemented in atoms and molecules
 - Easily use existing websockets
 - Can utilize existing codebase
+
+---
+
+# Build New Application Shell
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/migrate.png" alt="migrate" width="50%" />
+
+???
+
+- New features are shipped in existing application then assembled in new application
+- things like navigation for new application will need to be built at this stage
+- Iterate until all customers can be moved to new application
+
+---
