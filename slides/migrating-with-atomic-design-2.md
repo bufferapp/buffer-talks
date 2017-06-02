@@ -228,3 +228,31 @@ class: segue
 - Iterate until all customers can be moved to new application
 
 ---
+
+class: segue
+
+# What does development look like?
+
+---
+
+class: segue
+
+# Build UI in most the productive environment
+
+???
+
+- right now that's using tools like storybook and jest snapshots
+  - these things will likely change
+- things that won't change
+  - isolated environment
+  - think about component API first
+  - state last (if at all)
+- Development across projects should feel the same
+
+---
+
+# Build For A Constantly Changing Future
+
+- Rewrite while continuously shipping features
+- Should be easy to rebuild something if needed (modular)
+- Dev environment should be most productive environment
