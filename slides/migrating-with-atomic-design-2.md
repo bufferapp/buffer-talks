@@ -56,7 +56,8 @@ class: segue
 
 - This is the point where companies face The Death Choice.
 - Stop and rewrite, knowing that you'll freeze feature development (or have to build things twice).
-- Everyone knows the eBay story. No one knows the stories of the companies that never came out the other side of the mythical rewrite unless you go to failcon a lot.
+- Many are familiar with the Basecamp rewite story
+- Few know the stories of the companies that never came out the other side of the mythical rewrite unless you go to failcon a lot.
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
 - Many of us have been there.
@@ -76,11 +77,21 @@ class: segue
 
 ---
 
+class: segue
+
 # Atomic Design
 
-- Atom
-- Molecule
-- Organism
+---
+
+class: quote
+
+> Build complexity by stitching simple things together
+
+---
+
+class: segue
+
+# Atom»Molecule»Organism
 
 ---
 
@@ -136,6 +147,8 @@ class: segue
 
 ---
 
+class: segue
+
 # Buffer Migration Process
 
 ---
@@ -175,17 +188,28 @@ class: segue
 
 ---
 
+class: segue
+
 # Build A New Feature As A Molecule
 
-- Break Design Into Atoms And Molecules
-- Build Reusable components in Atom library
-- Build App specific components in Molecule library
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/post-breakdown.png" alt="post breakdown" width="80%" />
+
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/post-breakdown-implementation.png" alt="post breakdown" width="65%" />
 
 ---
 
 # Some Assembly Required
-
+.center[
 <iframe src="https://giphy.com/embed/AYLNzUe39OSgE" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+]
 
 ---
 
@@ -217,9 +241,15 @@ class: segue
 
 ---
 
+class: center, middle
+
 # Build New Application Shell
 
-<img src="{{baseurl}}/images/MigrateWithAtomicDesign/migrate.png" alt="migrate" width="50%" />
+---
+
+class: center, middle
+
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/migrate.png" alt="migrate" width="65%" />
 
 ???
 
