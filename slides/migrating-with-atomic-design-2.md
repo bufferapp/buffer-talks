@@ -6,12 +6,14 @@ class: title
 
 ---
 
-class: title
+class: quote
 
-# Atomic Design As A ~~Migration~~ Rewrite Strategy
-## Joel Spolsky Was Wrong
+> You Should Never Throw Away Your Codebase And Start Over
 
-.footnote[Harrison Harnisch ([@hjharnis](https://twitter.com/hjharnis))]
+???
+
+- mantra has mostly served the software engineering community well
+- made famous by Joel Spolsky
 
 ---
 
@@ -19,11 +21,16 @@ class: center, middle
 
 <img src="{{baseurl}}/images/MigrateWithAtomicDesign/things-you-should-never-do.png" alt="things you should never do part 1" width="100%" />
 
+???
+
+- has stood up amazingly well since 2000
+- this was written right before the dot-com bubble popped
+
 ---
 
 class: segue
 
-# That's not exactly true but it gets _more true_ over time
+# It gets _less true_ over time
 
 ???
 
@@ -57,7 +64,7 @@ class: segue
 - This is the point where companies face The Death Choice.
 - Stop and rewrite, knowing that you'll freeze feature development (or have to build things twice).
 - Many are familiar with the Basecamp rewite story
-- Few know the stories of the companies that never came out the other side of the mythical rewrite unless you go to failcon a lot.
+- Few know the stories of the companies that never came out the other side of the mythical rewrite because they never lived to tell the story.
 - That leaves the other option: keep hacking away, making small adjustments, and walking down that declining marginal productivity curve, adding more engineers and complexity as you try stagger along some development.
 - This looks a lot like a slow death - all those “didn’t stay agile” “couldn’t keep up” “stopped innovating” companies.
 - Many of us have been there.
@@ -115,6 +122,12 @@ class: segue
 
 <button>Search</button>
 
+???
+
+- work in many different contexts
+- highly reusable
+- not useful on their own
+
 ---
 
 # Molecule
@@ -139,11 +152,23 @@ class: segue
   <button>Search</button>
 </div>
 
+???
+
+- made of atoms stitched together
+- work in a number of different context but designed for a task
+
 ---
 
 # Organism
 
 <img src="{{baseurl}}/images/AtomicDesign/page-web.png" alt="organism" width="50%" />
+
+???
+
+- made of atoms and molecules stitched toghether
+- this is where context is set
+- useful on its own
+- there are templates and pages, but those are more useful for design
 
 ---
 
@@ -159,8 +184,10 @@ class: segue
 
 ???
 
+- This is a library that is used to develop atoms
+- at this stage just setting up the dev environment
+  - we chose tools like React Storybook and Jest snapshots
 - [Buffer Components](https://github.com/bufferapp/buffer-components)
-- Useful in almost any context
 
 ---
 
@@ -170,21 +197,28 @@ class: segue
 
 ???
 
+- This is a library that is used to develop molecules
 - [Buffer Web Components](https://github.com/bufferapp/buffer-web-components)
-- Some Buffer specific context set
 
 ---
 
-# Migrate An Atom
+# Migrate Atom In Existing App
 
 - Pick something small like `Text`
 - Build `Text` in the Atom Library
 - Replace one `Text` element with the new Atom
 
+```html
+<Text bold>Some Bold Text</Text>
+```
+
+<label style="font-weight: bold;">Some Bold Text</label>
+
 ???
 
 - text component is nice because it doesn't require user interaction
 - focus on the logistics of bringing an atom into the application, ex. NPM
+- deploy it, and if no one notices SUCCESS
 
 ---
 
@@ -210,6 +244,10 @@ class: center, middle
 .center[
 <iframe src="https://giphy.com/embed/AYLNzUe39OSgE" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ]
+
+???
+
+- Assemble the feature in your existing application and set the context
 
 ---
 
@@ -245,6 +283,10 @@ class: center, middle
 
 # Build New Application Shell
 
+???
+
+- At this point you're ready to start building a home for your new components
+
 ---
 
 class: center, middle
@@ -267,7 +309,30 @@ class: segue
 
 class: segue
 
-# Build UI in most the productive environment
+# Build in the **most productive** environment
+
+???
+
+- It should be faster to get work done locally than in production
+- Developers should be using the most effective tools right now
+
+---
+
+class: title
+
+<img
+  src="{{baseurl}}/images/MigrateWithAtomicDesign/storybook-icon.png"   
+  alt="jest"
+  width="25%"
+  style="position: absolute; top: 25%; left: 15%;"
+/>
+# and
+<img
+  src="{{baseurl}}/images/MigrateWithAtomicDesign/jest-outline.svg"
+  alt="jest"
+  width="25%"
+  style="position: absolute; top: 25%; right: 15%;"
+/>
 
 ???
 
