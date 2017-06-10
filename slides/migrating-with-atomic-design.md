@@ -23,14 +23,14 @@ class: center, middle
 
 ???
 
-- has stood up amazingly well since 2000
-- this was written right before the dot-com bubble popped
+- has stood up amazingly well since 2000, because building something from scratch is not advised unless you've got a good reason
+- this was written right before the dot-com bubble popped, the startup climate could be described as chaotic. If you were a leader in any space there was likely to be several startups waiting for their chance.
 
 ---
 
 class: segue
 
-# It gets _less true_ over time
+# Never rewrite gets _less true_ over time
 
 ???
 
@@ -165,10 +165,24 @@ class: segue
 
 ???
 
-- made of atoms and molecules stitched toghether
-- this is where context is set
-- useful on its own
-- there are templates and pages, but those are more useful for design
+- made of atoms and molecules stitched together
+- this is where context is set and business logic defined
+  - context = state
+  - business logic = set of operations to manipulate state
+- useful on its own, this is something you could put in front of a customer
+
+---
+
+class: segue
+
+# Template » Page
+
+???
+
+- not quite as useful for building single page applications
+  - typically all the atoms and molecules live within 1 to 2 screens
+  - many of your atoms and molecules are implemented as templates so it kind of breaks the metaphor
+- more useful for building things like marketing sites or blogs with lots of posts
 
 ---
 
@@ -285,7 +299,7 @@ class: center, middle
 
 ???
 
-- At this point you're ready to start building a home for your new components
+- At this point you're ready to start building a home for your new atoms and molecules
 
 ---
 
