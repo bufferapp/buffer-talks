@@ -225,9 +225,15 @@
         display: inline-block;
       }
 
+      /* dark-background */
+
       .remark-slide-content.dark-background {
-        background: #168EEA;
+        background: #000;
         color: #FFF;
+      }
+
+      .remark-slide-content.dark-background:after{
+        background-image: url('{{ site.baseurl }}/images/buffer-light.png');
       }
     </style>
 </head>
