@@ -360,6 +360,9 @@ class: title
 
 ---
 
+class: dark-background
+background-image: url({{baseurl}}/images/MigrateWithAtomicDesign/stars.gif)
+
 # Build For A Constantly Changing Future
 
 - Rewrite while continuously shipping features
