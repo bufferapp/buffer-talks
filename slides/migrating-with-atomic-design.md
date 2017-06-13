@@ -363,8 +363,16 @@ class: title
 class: dark-background
 background-image: url({{baseurl}}/images/MigrateWithAtomicDesign/stars.gif)
 
-# Build For A Constantly Changing Future
+# Build For A Changing Future
 
-- Rewrite while continuously shipping features
 - Should be easy to rebuild something if needed (modular)
+- Rewrite while continuously shipping features
 - Dev environment should be most productive environment
+
+???
+
+- we're here because JS is in our lives for one reason or another
+- JS is constantly changing, getting better and different (along with the tooling)
+- It is very likely we're writing code that will need to be rewritten
+- So if you do a rewrite, do it while continuously shipping features, build it modularly
+  - microservice best practices (no larger than 2 weeks to rewrite)
