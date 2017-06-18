@@ -333,7 +333,7 @@ class: segue
 ???
 
 - Easier for 1 person to manage 1 large project than 30 small projects, if you're 1 person don't do this
-- Break up teams into 2-3 people working in a shared space at a time
+- Teams are broken up into 2-3 engineers working in a shared space at a time
 
 ---
 
