@@ -328,7 +328,7 @@ class: center, middle
 
 class: segue
 
-When is this approach most effective?
+# When is this approach most effective?
 
 ???
 
