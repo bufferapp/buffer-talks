@@ -6,6 +6,17 @@ class: title
 
 ---
 
+class: segue
+
+# Harrison Harnisch
+
+**Senior Software Engineer @ Buffer**  
+
+Twitter: [@hjharnis](https://twitter.com/hjharnis)  
+Email: harrison@buffer.com  
+
+---
+
 class: quote
 
 > You Should Never Throw Away Your Codebase And Start Over
@@ -207,7 +218,7 @@ class: segue
 
 # Create Molecule Library
 
-<iframe src="https://bufferapp.github.io/buffer-web-components/" height="70%" width="100%" frameBorder="0" />
+<iframe src="https://bufferapp.github.io/buffer-web-components/?selectedKind=Post&selectedStory=default&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel" height="70%" width="100%" frameBorder="0" />
 
 ???
 
