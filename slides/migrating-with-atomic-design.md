@@ -328,6 +328,17 @@ class: center, middle
 
 class: segue
 
+When is this approach most effective?
+
+???
+
+- Easier for 1 person to manage 1 large project than 30 small projects, if you're 1 person don't do this
+- Break up teams into 2-3 people working in a shared space at a time
+
+---
+
+class: segue
+
 # What does development look like?
 
 ---
