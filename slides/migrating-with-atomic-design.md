@@ -205,7 +205,9 @@ class: segue
 
 # Create Atom Library
 
-<iframe src="https://bufferapp.github.io/buffer-components/" height="70%" width="100%" frameBorder="0"/>
+.center[
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/atoms.png" alt="atom library" width="80%" />
+]
 
 ???
 
@@ -218,7 +220,9 @@ class: segue
 
 # Create Molecule Library
 
-<iframe src="https://bufferapp.github.io/buffer-web-components/?selectedKind=Post&selectedStory=default&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel" height="70%" width="100%" frameBorder="0" />
+.center[
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/molecules.png" alt="molecule library" width="80%" />
+]
 
 ???
 
@@ -265,9 +269,9 @@ class: center, middle
 
 ---
 
-# Some Assembly Required
 .center[
-<iframe src="https://giphy.com/embed/AYLNzUe39OSgE" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+# Some Assembly Required
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/assemble.gif" alt="assemble" width="480" height="360" />
 ]
 
 ???
@@ -328,12 +332,57 @@ class: center, middle
 
 class: segue
 
-# When is this approach most effective?
+# Benefits And Lessons Learned
+
+---
+
+class: center, middle
+
+# Level Up Developers
+
+???
+
+- start a new dev out with a story and a design
+- next time have the same dev start with just the design
+- after that then expand to multiple atoms, then start with a molecule story
+- keep expanding scope of work
+
+---
+
+class: center, middle
+
+# Inline Styles
+
+???
+
+- Simpler webpack configuration, no style or css loaders to configure
+- Style is tightly scoped to each component
+  - no global styles or selectors that apply style to child elements
+  - if you want global styles, just use javascript import/export
+- can't change all button styles in the app
+  - adding hot reloading allows you to tweak the code
+
+---
+
+class: center, middle
+
+# Work Partitioning
 
 ???
 
 - Easier for 1 person to manage 1 large project than 30 small projects, if you're 1 person don't do this
 - Teams are broken up into 2-3 engineers working in a shared space at a time
+
+---
+
+class: center, middle
+
+# Set Milestones
+
+???
+
+- The migration process can be boring or tedious at times, setting goals helps keeps things moving
+- At Buffer we're using 6 week cycles, similar to basecamp, to stay focused
 
 ---
 
@@ -393,8 +442,7 @@ background-image: url({{baseurl}}/images/MigrateWithAtomicDesign/stars.gif)
 
 ???
 
-- we're here because JS is in our lives for one reason or another
-- JS is constantly changing, getting better and different (along with the tooling)
+- we're here because web development is in our lives for one reason or another
+- web development is constantly changing, getting better and different (along with the tooling)
 - It is very likely we're writing code that will need to be rewritten
 - So if you do a rewrite, do it while continuously shipping features, build it modularly
-  - microservice best practices (no larger than 2 weeks to rewrite)
