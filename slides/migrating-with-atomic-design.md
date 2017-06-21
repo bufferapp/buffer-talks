@@ -340,6 +340,8 @@ class: center, middle
 
 # Level Up Developers
 
+<img src="{{baseurl}}/images/MigrateWithAtomicDesign/levelup.gif" alt="level up" width="40%" />
+
 ???
 
 - start a new dev out with a story and a design
