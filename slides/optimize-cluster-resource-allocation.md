@@ -468,6 +468,13 @@ class: fifty-fifty
 
 ---
 
+class: segue
+
+# KubeScope 🔬
+## https://github.com/hharnisc/kubescope
+
+---
+
 class: segue, center
 
 # Questions?
